@@ -1,16 +1,23 @@
 PODS:
-  - SlikeRecommendation (0.1.0)
+  - Alamofire (5.6.4)
+  - SlikeRecommendation (0.1.0):
+    - Alamofire
 
 DEPENDENCIES:
   - SlikeRecommendation (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   SlikeRecommendation:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SlikeRecommendation: cdda1fa3e1f54d6a4327d46fae868addf670a420
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  SlikeRecommendation: 71d4be6fede523cfaeb481248258273b4712fc78
 
-PODFILE CHECKSUM: 8da99e79f30aafec6092c0785bc7c1e8b05a7b3c
+PODFILE CHECKSUM: 84329d35a730d194ded0a1a60e8c6ef20f323ae8
 
 COCOAPODS: 1.11.3
