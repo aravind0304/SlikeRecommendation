@@ -1,0 +1,16 @@
+PODS:
+  - SlikeRecommendation (0.1.0)
+
+DEPENDENCIES:
+  - SlikeRecommendation (from `../`)
+
+EXTERNAL SOURCES:
+  SlikeRecommendation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SlikeRecommendation: cdda1fa3e1f54d6a4327d46fae868addf670a420
+
+PODFILE CHECKSUM: 8da99e79f30aafec6092c0785bc7c1e8b05a7b3c
+
+COCOAPODS: 1.11.3

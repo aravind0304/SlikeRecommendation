@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SlikeRecommendation
 //
-//  Created by KyleWash007 on 01/17/2023.
-//  Copyright (c) 2023 KyleWash007. All rights reserved.
+//  Created by Aravind.kumar on 01/17/2023.
+//  Copyright (c) 2023 Aravind.kumar. All rights reserved.
 //
 
 import UIKit
