@@ -41,7 +41,7 @@ extension APIClient {
         return false
     }
     func getDataObject<T: Decodable>(url:String,decodingType: T.Type, parametrs:[String:Any],action:HTTPMethod, completion: @escaping  JSONTaskCompletionHandler) {
-        var header = Environment.current.headerData
+        let header = Environment.current.headerData
         AF.request(url,
                    method: action,
                    parameters: parametrs,
