@@ -13,7 +13,14 @@ public protocol SlikeRecommendationResponce:AnyObject {
 }
 
 @objc final public class SlikeRecommendation: NSObject {
-   
+    //Aston Band
+    
+    public lazy var slikeRecommendationView: SlikeRecommendationView = {
+        let view = SlikeRecommendationView.init(frame: .zero)
+        view.backgroundColor = .red
+        return view
+    }()
+    
     weak var delegate:SlikeRecommendationResponce?
 
     var viewModel:SlikeRecommendationViewModel?
@@ -27,7 +34,6 @@ public protocol SlikeRecommendationResponce:AnyObject {
     }
     
     public func getSlikeRecommendation(completion: @escaping (_ status:Bool,_ model:[SlikeRecommendationModel]?)->Void) {
-        print("getSlikeRecommendation")
         if let msid = self.msid, let sid = self.sid {
             self.viewModel = SlikeRecommendationViewModel(sid: sid, msid: msid)
             self.viewModel?.bindDataViewContollers = {
@@ -36,7 +42,20 @@ public protocol SlikeRecommendationResponce:AnyObject {
                 completion(true,self.viewModel?.slikeRecommendationModel)
             }
         }
-        
+    }
+    
+    public func getSlikeRecommendationView(rect:CGRect,completion: @escaping (_ status:Bool,_ view:UIView?)->Void) {
+        if let msid = self.msid, let sid = self.sid {
+            self.viewModel = SlikeRecommendationViewModel(sid: sid, msid: msid)
+            self.viewModel?.bindDataViewContollers = {
+                self.slikeRecommendationView.frame = rect
+                
+                if let data = self.viewModel?.slikeRecommendationModel {
+                    self.slikeRecommendationView.loadRecommendationUI(data: data)
+                }
+                completion(true,self.slikeRecommendationView)
+            }
+        }
     }
     
 }
