@@ -17,7 +17,7 @@ public protocol SlikeRecommendationResponce:AnyObject {
     
     public lazy var slikeRecommendationView: SlikeRecommendationView = {
         let view = SlikeRecommendationView.init(frame: .zero)
-        view.backgroundColor = .red
+        view.backgroundColor = .clear
         return view
     }()
     

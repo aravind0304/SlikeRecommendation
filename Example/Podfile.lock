@@ -1,7 +1,10 @@
 PODS:
   - Alamofire (5.6.4)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
   - SlikeRecommendation (0.1.0):
     - Alamofire
+    - AlamofireImage
 
 DEPENDENCIES:
   - SlikeRecommendation (from `../`)
@@ -9,6 +12,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AlamofireImage
 
 EXTERNAL SOURCES:
   SlikeRecommendation:
@@ -16,7 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
-  SlikeRecommendation: 71d4be6fede523cfaeb481248258273b4712fc78
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  SlikeRecommendation: 3c61c0fcb1664787c9f3f249d35e33a87dc66c21
 
 PODFILE CHECKSUM: 84329d35a730d194ded0a1a60e8c6ef20f323ae8
 

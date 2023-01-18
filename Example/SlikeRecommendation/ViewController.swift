@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         self.loadViewCall()
     }
     func loadViewCall() {
-        let rect = CGRect(x: 0, y: 0, width: 375, height: 240)
+        let rect = CGRect(x: 0, y: 60, width: self.view.frame.size.width, height: self.view.frame.size.width/3)
         self.slikeRecommendation?.getSlikeRecommendationView(rect:rect, completion: { status, viewS in
             if let vv = viewS {
                 self.view.addSubview(vv)
