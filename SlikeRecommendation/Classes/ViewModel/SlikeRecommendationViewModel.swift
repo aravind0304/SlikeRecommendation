@@ -11,11 +11,12 @@ import Alamofire
 class SlikeRecommendationViewModel {
     private var dataHandler : APIClient!
     var bindDataViewContollers : (()->Void)?
-    private (set) var slikeRecommendationModel:[SlikeRecommendationModel]! {
+    private (set) var slikeRecommendationModel:[SlikeRecommendationModel]? {
         didSet {
             bindDataViewContollers?()
         }
     }
+   
     init(sid:String,msid:String) {
     self.dataHandler = SlikeRecommenFeedData(sid: sid, msid: msid)
         self.dataHandler.fetchDataModel { [weak self](res:(Result<[SlikeRecommendationModel], APIError>)) in
@@ -25,6 +26,9 @@ class SlikeRecommendationViewModel {
                 strongSelf.slikeRecommendationModel = result
             case .failure(let error):
                 print("the error \(error)")
+                guard let strongSelf = self else { return }
+                strongSelf.slikeRecommendationModel = nil
+
             }
         }
     }

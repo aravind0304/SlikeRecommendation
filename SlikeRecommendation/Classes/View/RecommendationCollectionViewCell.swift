@@ -4,23 +4,35 @@
 
 import UIKit
 import AlamofireImage
+//#define SlikePlayerImagePause(file,imageBundle)  [UIImage imageNamed:file inBundle:imageBundle compatibleWithTraitCollection:nil]
 
 class RecommendationCollectionViewCell: UICollectionViewCell {
-   
+    @IBOutlet weak var lblDution: UILabel!
+    
+    @IBOutlet weak var viewDuration: UIView!
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var posterImageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         self.posterImageView.clipsToBounds = true
-        self.layer.cornerRadius = 5.0
+        self.layer.cornerRadius = 3.0
         self.clipsToBounds = true
+        viewDuration.clipsToBounds = true
+        viewDuration.layer.cornerRadius = 3
+        viewDuration.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMaxYCorner]
+        self.img.image = RecBundleManager.image(named: "play")
     }
     func setloadData(data:SlikeRecommendationModel) {
+        self.posterImageView.backgroundColor = UIColor.black
         if let img = data.thumb, let url = URL(string: img) {
-            //let placeholderImage = UIImage(named: "placeholder")
-          
             self.posterImageView.af.setImage(withURL: url)
-            
         }
+        lblDution.text = data.duration ?? "00:00"
+        lblTitle.text = data.title
+
     }
+    
 }

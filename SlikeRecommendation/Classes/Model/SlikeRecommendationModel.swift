@@ -7,6 +7,12 @@
 
 import Foundation
 
+struct ErrorResponce: Codable {
+    let status: Int
+    let result: String
+}
+
+
 // MARK: - SlikeRecommendationModel
 public struct SlikeRecommendationModel: Codable {
     let channel, description, duration: String?

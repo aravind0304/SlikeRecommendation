@@ -44,11 +44,13 @@ import UIKit
             self.viewModel = SlikeRecommendationViewModel(sid: sid, msid: msid)
             self.viewModel?.bindDataViewContollers = {
                 self.slikeRecommendationView.frame = rect
-                
+            
                 if let data = self.viewModel?.slikeRecommendationModel {
                     self.slikeRecommendationView.loadRecommendationUI(data: data)
+                    completion(true,self.slikeRecommendationView)
+                }else {
+                    completion(false,nil)
                 }
-                completion(true,self.slikeRecommendationView)
             }
         }
     }
