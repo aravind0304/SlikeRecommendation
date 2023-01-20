@@ -73,7 +73,7 @@ extension SlikeRecommendationView:UICollectionViewDelegate {
 
 extension SlikeRecommendationView:UICollectionViewDelegateFlowLayout {
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: self.frame.size.width/3-10,height: self.frame.size.height)
+        return CGSize(width: self.frame.size.height-20,height: self.frame.size.height-20)
     }
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {

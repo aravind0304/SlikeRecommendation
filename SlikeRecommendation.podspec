@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SlikeRecommendation'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of SlikeRecommendation.'
   s.homepage         = 'timesinternet.in'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

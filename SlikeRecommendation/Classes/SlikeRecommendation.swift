@@ -8,10 +8,7 @@
 import Foundation
 import UIKit
 
-public protocol SlikeRecommendationResponce:AnyObject {
-    func sucessDataReCeived(model:SlikeRecommendationModel?)
-}
-
+@objcMembers
 @objc final public class SlikeRecommendation: NSObject {
     //Aston Band
     
@@ -21,13 +18,12 @@ public protocol SlikeRecommendationResponce:AnyObject {
         return view
     }()
     
-    weak var delegate:SlikeRecommendationResponce?
 
     var viewModel:SlikeRecommendationViewModel?
     var sid:String?
     var msid:String?
     
-     public  init(sid:String,msid:String) {
+    @objc public init(sid:String,msid:String) {
         super.init()
         self.sid = sid
         self.msid = msid
@@ -38,13 +34,12 @@ public protocol SlikeRecommendationResponce:AnyObject {
             self.viewModel = SlikeRecommendationViewModel(sid: sid, msid: msid)
             self.viewModel?.bindDataViewContollers = {
                 print(self.viewModel?.slikeRecommendationModel)
-               // self.delegate?.sucessDataReCeived(model: self.viewModel?.slikeRecommendationModel)
                 completion(true,self.viewModel?.slikeRecommendationModel)
             }
         }
     }
     
-    public func getSlikeRecommendationView(rect:CGRect,completion: @escaping (_ status:Bool,_ view:UIView?)->Void) {
+    @objc public func getSlikeRecommendationView(rect:CGRect,completion: @escaping (_ status:Bool,_ view:UIView?)->Void) {
         if let msid = self.msid, let sid = self.sid {
             self.viewModel = SlikeRecommendationViewModel(sid: sid, msid: msid)
             self.viewModel?.bindDataViewContollers = {
