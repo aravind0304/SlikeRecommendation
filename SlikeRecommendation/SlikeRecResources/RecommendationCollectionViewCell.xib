@@ -53,6 +53,24 @@
                                     <constraint firstItem="w0n-CT-Czv" firstAttribute="leading" secondItem="2Wg-Wc-2ex" secondAttribute="leading" id="qma-nh-rNu"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKd-39-HZ2">
+                                <rect key="frame" x="0.0" y="0.0" width="60" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UP NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Oe-hx-PHs">
+                                        <rect key="frame" x="8" y="4" width="44" height="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.65098039215686276" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="0Oe-hx-PHs" firstAttribute="centerY" secondItem="vKd-39-HZ2" secondAttribute="centerY" id="JxE-T8-aX8"/>
+                                    <constraint firstAttribute="width" constant="60" id="S9e-IF-cSa"/>
+                                    <constraint firstAttribute="height" constant="20" id="aWF-0P-fOY"/>
+                                    <constraint firstItem="0Oe-hx-PHs" firstAttribute="centerX" secondItem="vKd-39-HZ2" secondAttribute="centerX" id="i73-bI-RXV"/>
+                                </constraints>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o02-2b-N7J">
                                 <rect key="frame" x="5" y="195" width="290" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -75,6 +93,8 @@
                             <constraint firstItem="o02-2b-N7J" firstAttribute="leading" secondItem="zCP-bh-fBc" secondAttribute="leading" constant="5" id="l5g-ly-hSF"/>
                             <constraint firstAttribute="trailing" secondItem="Zvx-Uc-7Gr" secondAttribute="trailing" id="oLh-dj-ybN"/>
                             <constraint firstAttribute="bottom" secondItem="Zvx-Uc-7Gr" secondAttribute="bottom" id="v4W-0d-PUF"/>
+                            <constraint firstItem="vKd-39-HZ2" firstAttribute="leading" secondItem="zCP-bh-fBc" secondAttribute="leading" id="zKL-2p-9GP"/>
+                            <constraint firstItem="vKd-39-HZ2" firstAttribute="top" secondItem="zCP-bh-fBc" secondAttribute="top" id="zfn-pF-yd4"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -90,6 +110,7 @@
                 <outlet property="img" destination="w0n-CT-Czv" id="RlF-LJ-qIc"/>
                 <outlet property="lblDution" destination="B7n-Xd-82q" id="rCT-Ye-j9D"/>
                 <outlet property="lblTitle" destination="o02-2b-N7J" id="SQy-yu-mdN"/>
+                <outlet property="nextView" destination="vKd-39-HZ2" id="Frb-ic-7ff"/>
                 <outlet property="posterImageView" destination="Zlg-SX-ViH" id="gvf-dY-yk9"/>
                 <outlet property="viewDuration" destination="2Wg-Wc-2ex" id="yNi-Ik-NYK"/>
             </connections>

@@ -7,11 +7,22 @@
 
 import Foundation
 import UIKit
+@objc public class SlikeModel: NSObject {
+    @objc public var slikeID:String!
+    @objc public var msid:String!
+}
+@objc public protocol SlikeRecommendationData:AnyObject {
+    func recommendationClickInformation(slikeMDO:SlikeModel)
+}
+
 
 @objcMembers
-@objc final public class SlikeRecommendation: NSObject {
+@objc final public class SlikeRecommendation: NSObject, SlikeRecommendationData {    
+    public func recommendationClickInformation(slikeMDO: SlikeModel) {
+        self.delegate?.recommendationClickInformation(slikeMDO: slikeMDO)
+    }
     //Aston Band
-    
+    public weak var delegate:SlikeRecommendationData?
     public lazy var slikeRecommendationView: SlikeRecommendationView = {
         let view = SlikeRecommendationView.init(frame: .zero)
         view.backgroundColor = .clear
@@ -39,14 +50,16 @@ import UIKit
         }
     }
     
-    @objc public func getSlikeRecommendationView(rect:CGRect,completion: @escaping (_ status:Bool,_ view:UIView?)->Void) {
+    @objc public func getSlikeRecommendationView(rect:CGRect,fromEndScreen:Bool, completion: @escaping (_ status:Bool,_ view:UIView?)->Void) {
         if let msid = self.msid, let sid = self.sid {
             self.viewModel = SlikeRecommendationViewModel(sid: sid, msid: msid)
             self.viewModel?.bindDataViewContollers = {
                 self.slikeRecommendationView.frame = rect
-            
+                self.slikeRecommendationView.delegate = self
                 if let data = self.viewModel?.slikeRecommendationModel {
+                    self.slikeRecommendationView.isFromEndScreen = fromEndScreen
                     self.slikeRecommendationView.loadRecommendationUI(data: data)
+                    
                     completion(true,self.slikeRecommendationView)
                 }else {
                     completion(false,nil)

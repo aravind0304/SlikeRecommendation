@@ -8,6 +8,8 @@
 import UIKit
 
 public class SlikeRecommendationView: UIView {
+     weak var delegate:SlikeRecommendationData?
+    var isFromEndScreen = false
     var kRecommendationCollectionViewCell  = "RecommendationCollectionViewCell"
 
     var view: UIView!
@@ -62,19 +64,29 @@ extension SlikeRecommendationView:UICollectionViewDataSource {
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kRecommendationCollectionViewCell, for: indexPath) as! RecommendationCollectionViewCell
         cell.setloadData(data: self.recommendationArray[indexPath.row])
+        cell.nextView.isHidden = true
+        if isFromEndScreen && indexPath.row == 0 {
+            cell.nextView.isHidden = false
+        }
         return cell;
     }
 }
 extension SlikeRecommendationView:UICollectionViewDelegate {
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let mdo = self.recommendationArray[indexPath.row]
+        if let msid = mdo.msid, let slikeid  = mdo.k {
+            let slikeModel = SlikeModel()
+            slikeModel.msid = "\(msid)";
+            slikeModel.slikeID = slikeid;
+            self.delegate?.recommendationClickInformation(slikeMDO: slikeModel)
+        }
     }
 }
 
 extension SlikeRecommendationView:UICollectionViewDelegateFlowLayout {
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let cal =  self.frame.size.height-20
-        return CGSize(width: cal+cal*0.5,height: cal)
+        return CGSize(width: cal+cal*0.75,height: cal)
     }
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {

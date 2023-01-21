@@ -12,6 +12,7 @@ class RecommendationCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var viewDuration: UIView!
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var nextView: UIView!
     @IBOutlet weak var posterImageView: UIImageView!
     
     override func awakeFromNib() {
@@ -24,6 +25,9 @@ class RecommendationCollectionViewCell: UICollectionViewCell {
         viewDuration.layer.cornerRadius = 3
         viewDuration.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMaxYCorner]
         self.img.image = RecBundleManager.image(named: "play")
+        nextView.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner]
+        nextView.clipsToBounds = true
+        nextView.isHidden = true
     }
     func setloadData(data:SlikeRecommendationModel) {
         self.posterImageView.backgroundColor = UIColor.black
