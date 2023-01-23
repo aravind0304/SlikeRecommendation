@@ -59,7 +59,6 @@ import UIKit
                 if let data = self.viewModel?.slikeRecommendationModel {
                     self.slikeRecommendationView.isFromEndScreen = fromEndScreen
                     self.slikeRecommendationView.loadRecommendationUI(data: data)
-                    
                     completion(true,self.slikeRecommendationView)
                 }else {
                     completion(false,nil)
@@ -67,5 +66,7 @@ import UIKit
             }
         }
     }
-    
+    @objc public func autoClickAction() {
+        self.slikeRecommendationView.autoPlayStart()
+    }
 }

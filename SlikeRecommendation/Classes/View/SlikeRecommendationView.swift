@@ -43,7 +43,6 @@ public class SlikeRecommendationView: UIView {
         self.registerNib()
     }
     func loadRecommendationUI(data:[SlikeRecommendationModel]) {
-        print(data)
         self.recommendationArray = data
         self.ctView.reloadData()
     }
@@ -53,6 +52,17 @@ public class SlikeRecommendationView: UIView {
         ctView.delegate = self
         ctView.dataSource = self
         ctView.backgroundColor = UIColor.clear
+    }
+   @objc public func autoPlayStart() {
+        if self.recommendationArray.count > 0 {
+            let mdo = self.recommendationArray[0]
+            if let msid = mdo.msid, let slikeid  = mdo.k {
+                let slikeModel = SlikeModel()
+                slikeModel.msid = "\(msid)";
+                slikeModel.slikeID = slikeid;
+                self.delegate?.recommendationClickInformation(slikeMDO: slikeModel)
+            }
+        }
     }
 }
 

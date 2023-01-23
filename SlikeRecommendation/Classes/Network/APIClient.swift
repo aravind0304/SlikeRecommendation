@@ -9,11 +9,13 @@ enum APIError: Error {
     case requestFailed
     case jsonConversionFailure
     case invalidData
+    case emptyData
     case responseUnsuccessful
     case jsonParsingFailure
     var localizedDescription: String {
         switch self {
         case .requestFailed: return "Request Failed"
+        case .emptyData: return "emptydata"
         case .invalidData: return "Invalid Data"
         case .responseUnsuccessful: return "Response Unsuccessful"
         case .jsonParsingFailure: return "JSON Parsing Failure"
@@ -59,9 +61,17 @@ extension APIClient {
                         let genericModel = try JSONDecoder().decode(decodingType, from: data)
                         completion(genericModel, nil)
                     } catch {
-                        completion(nil, .jsonConversionFailure)
+                        print(response)
+                        do {
+                            let errorResponce = try JSONDecoder().decode(ErrorResponce.self, from: data)
+                            print(errorResponce)
+                            completion(nil, .emptyData)
+                        }catch {
+                            completion(nil, .responseUnsuccessful)
+                        }
                     }
                 } else {
+                    
                     completion(nil, .invalidData)
                 }
             }
