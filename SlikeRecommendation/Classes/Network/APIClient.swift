@@ -61,7 +61,6 @@ extension APIClient {
                         let genericModel = try JSONDecoder().decode(decodingType, from: data)
                         completion(genericModel, nil)
                     } catch {
-                        print(response)
                         do {
                             let errorResponce = try JSONDecoder().decode(ErrorResponce.self, from: data)
                             print(errorResponce)
@@ -71,7 +70,6 @@ extension APIClient {
                         }
                     }
                 } else {
-                    
                     completion(nil, .invalidData)
                 }
             }

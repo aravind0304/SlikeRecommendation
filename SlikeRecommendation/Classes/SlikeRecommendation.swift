@@ -10,6 +10,10 @@ import UIKit
 @objc public class SlikeModel: NSObject {
     @objc public var slikeID:String!
     @objc public var msid:String!
+    @objc public var rmn:String!
+    @objc public var rm:String!
+    @objc public var rtype:String!
+    @objc public var ralgo:String!
 }
 @objc public protocol SlikeRecommendationData:AnyObject {
     func recommendationClickInformation(slikeMDO:SlikeModel)
@@ -59,7 +63,11 @@ import UIKit
                 if let data = self.viewModel?.slikeRecommendationModel {
                     self.slikeRecommendationView.isFromEndScreen = fromEndScreen
                     self.slikeRecommendationView.loadRecommendationUI(data: data)
-                    completion(true,self.slikeRecommendationView)
+                    if data.count > 0 {
+                        completion(true,self.slikeRecommendationView)
+                    }else {
+                        completion(false,nil)
+                    }
                 }else {
                     completion(false,nil)
                 }

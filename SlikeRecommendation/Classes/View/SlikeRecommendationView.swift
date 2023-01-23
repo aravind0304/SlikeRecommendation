@@ -60,6 +60,11 @@ public class SlikeRecommendationView: UIView {
                 let slikeModel = SlikeModel()
                 slikeModel.msid = "\(msid)";
                 slikeModel.slikeID = slikeid;
+                slikeModel.rmn = mdo.rmn ?? "";
+                slikeModel.rm = mdo.rm ?? "";
+                slikeModel.rtype = mdo.rtype ?? "";
+                slikeModel.ralgo = mdo.ralgo ?? "";
+
                 self.delegate?.recommendationClickInformation(slikeMDO: slikeModel)
             }
         }
@@ -88,6 +93,11 @@ extension SlikeRecommendationView:UICollectionViewDelegate {
             let slikeModel = SlikeModel()
             slikeModel.msid = "\(msid)";
             slikeModel.slikeID = slikeid;
+            slikeModel.rmn = mdo.rmn ?? "";
+            slikeModel.rm = mdo.rm ?? "";
+            slikeModel.rtype = mdo.rtype ?? "";
+            slikeModel.ralgo = mdo.ralgo ?? "";
+            
             self.delegate?.recommendationClickInformation(slikeMDO: slikeModel)
         }
     }
