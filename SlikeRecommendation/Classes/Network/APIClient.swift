@@ -3,7 +3,7 @@
 
 
 import Foundation
-import Alamofire
+//import Alamofire
 
 enum APIError: Error {
     case requestFailed
@@ -30,63 +30,107 @@ enum Result<T, U> where U: Error,T:Decodable {
 }
 
 protocol APIClient:Decodable {
-    func getParameters(valueType:String) -> [String:Any]
+    func getParameters() -> [String:String]
     func getBaseUrlPath() -> String
-    func getType() -> Alamofire.HTTPMethod
+//    func getType() -> Alamofire.HTTPMethod
     func fetchDataModel<T>(completion:@escaping (Result<T, APIError>) -> Void)
     
 }
 extension APIClient {
     typealias JSONTaskCompletionHandler = (Decodable?, APIError?) -> Void
-   
+    
     func getAPIType() -> Bool {
         return false
     }
-    func getDataObject<T: Decodable>(url:String,decodingType: T.Type, parametrs:[String:Any],action:HTTPMethod, completion: @escaping  JSONTaskCompletionHandler) {
-        let header = Environment.current.headerData
-        AF.request(url,
-                   method: action,
-                   parameters: parametrs,
-                   encoding: URLEncoding(destination: .methodDependent),
-                   headers: header)
-          .responseString{response in
-            if let apiData = response.response {
-             
-                if apiData.statusCode==200  {
-                if let data = response.data {
-                    if  let jsonString = NSString(data: data, encoding: String.Encoding.utf8.rawValue) {
-                    print(jsonString)
-                    }
-                do {
-                        let genericModel = try JSONDecoder().decode(decodingType, from: data)
-                        completion(genericModel, nil)
-                    } catch {
-                        do {
-                            let errorResponce = try JSONDecoder().decode(ErrorResponce.self, from: data)
-                            completion(nil, .emptyData)
-                        }catch {
-                            completion(nil, .responseUnsuccessful)
-                        }
-                    }
-                } else {
-                    completion(nil, .invalidData)
+//    func getDataObject<T: Decodable>(url:String,decodingType: T.Type, parametrs:[String:String],action:HTTPMethod, completion: @escaping  JSONTaskCompletionHandler) {
+    func getDataObject<T: Decodable>(url:String,decodingType: T.Type, parametrs:[String:String], completion: @escaping  JSONTaskCompletionHandler) {
+
+        if let url = URL(string: url) {
+            let task = URLSession.shared.dataTask(with: url) { dataResponce, response, error in
+                if error != nil {
+                    completion(nil, .emptyData)
+                    
                 }
+                if let httpResponse = response as? HTTPURLResponse,
+                   (200...299).contains(httpResponse.statusCode)  {
+                    if let data = dataResponce {
+                        if  let jsonString = NSString(data: data, encoding: String.Encoding.utf8.rawValue) {
+                            print(jsonString)
+                        }
+                        do {
+                            let genericModel = try JSONDecoder().decode(decodingType, from: data)
+                            completion(genericModel, nil)
+                        } catch {
+                            do {
+                                _ = try JSONDecoder().decode(ErrorResponce.self, from: data)
+                                completion(nil, .emptyData)
+                            }catch {
+                                completion(nil, .responseUnsuccessful)
+                            }
+                        }
+                    }else {
+                        completion(nil, .emptyData)
+                        
+                    }
+                    return
+                }else {
+                    completion(nil, .responseUnsuccessful)
+                    
+                }
+                
             }
-              else {
-                  print(response)
-                completion(nil, .responseUnsuccessful)
-              }
-            }
-            else {
-                completion(nil, .responseUnsuccessful)
-            }
-          }
-      }
+            task.resume()
+        }else {
+            completion(nil, .responseUnsuccessful)
+        }
+        
+        /*
+         let header = Environment.current.headerData
+         AF.request(url,
+         method: action,
+         parameters: parametrs,
+         encoding: URLEncoding(destination: .methodDependent),
+         headers: header)
+         .responseString{response in
+         if let apiData = response.response {
+         
+         if apiData.statusCode==200  {
+         if let data = response.data {
+         if  let jsonString = NSString(data: data, encoding: String.Encoding.utf8.rawValue) {
+         print(jsonString)
+         }
+         do {
+         let genericModel = try JSONDecoder().decode(decodingType, from: data)
+         completion(genericModel, nil)
+         } catch {
+         do {
+         let errorResponce = try JSONDecoder().decode(ErrorResponce.self, from: data)
+         completion(nil, .emptyData)
+         }catch {
+         completion(nil, .responseUnsuccessful)
+         }
+         }
+         } else {
+         completion(nil, .invalidData)
+         }
+         }
+         else {
+         print(response)
+         completion(nil, .responseUnsuccessful)
+         }
+         }
+         else {
+         completion(nil, .responseUnsuccessful)
+         }
+         }
+         */
+    }
     
     func fetchDataModel<T: Decodable>(completion:@escaping (Result<T, APIError>) -> Void){
         
-        getDataObject(url:self.getBaseUrlPath(),decodingType:T.self, parametrs: self.getParameters(valueType: "new"), action: self.getType() ) { (json , error) in
-            
+//        getDataObject(url:self.getBaseUrlPath(),decodingType:T.self, parametrs: self.getParameters(), action: self.getType() ) { (json , error) in
+        getDataObject(url:self.getBaseUrlPath(),decodingType:T.self, parametrs: self.getParameters()) { (json , error) in
+
             //MARK: change to main queue
             DispatchQueue.main.async {
                 guard let json = json else {

@@ -43,19 +43,19 @@ class SlikeRecommenFeedData:APIClient {
         self.msid = msid
 
     }
-    private var parametrs:[String:Any] {
+    private var parametrs:[String:String] {
         get {
-            return ["sid":self.sid,"msid":self.msid,"rand":Date().millisecondsSince1970]
+            return ["sid":self.sid,"msid":self.msid,"rand":"\(Date().millisecondsSince1970)"]
         }
     }
     func getType() -> Alamofire.HTTPMethod {
         .get
     }
-    func getParameters(valueType: String) -> [String : Any] {
+    func getParameters() -> [String : String] {
         return parametrs
     }
     func getBaseUrlPath() -> String {
-        return Environment.current.baseAPIUrl + "similar/result.json"
+        return Environment.current.baseAPIUrl + "similar/result.json?" + "sid=\(self.sid)" + "&" + "msid=\(self.msid)" + "&" + "rand=\("\(Date().millisecondsSince1970)")"
         
     }
 }

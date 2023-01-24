@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.resource_bundle     = { 'SlikeRecResources' =>  ['SlikeRecommendation/SlikeRecResources/*'] }
   s.ios.deployment_target = '12.0'
   s.source_files = 'SlikeRecommendation/Classes/**/*'
-  s.dependency 'Alamofire'
+  #s.dependency 'Alamofire'
   s.dependency 'AlamofireImage'
 
 end
