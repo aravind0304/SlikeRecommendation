@@ -64,7 +64,8 @@ public class SlikeRecommendationView: UIView {
                 slikeModel.rm = mdo.rm ?? "";
                 slikeModel.rtype = mdo.rtype ?? "";
                 slikeModel.ralgo = mdo.ralgo ?? "";
-
+                slikeModel.rsrc = isFromEndScreen;
+                slikeModel.recency = NSNumber(value: mdo.recency ?? 0);
                 self.delegate?.recommendationClickInformation(slikeMDO: slikeModel)
             }
         }
@@ -97,7 +98,8 @@ extension SlikeRecommendationView:UICollectionViewDelegate {
             slikeModel.rm = mdo.rm ?? "";
             slikeModel.rtype = mdo.rtype ?? "";
             slikeModel.ralgo = mdo.ralgo ?? "";
-            
+            slikeModel.rsrc = isFromEndScreen;
+            slikeModel.recency = NSNumber(value: mdo.recency ?? 0);
             self.delegate?.recommendationClickInformation(slikeMDO: slikeModel)
         }
     }

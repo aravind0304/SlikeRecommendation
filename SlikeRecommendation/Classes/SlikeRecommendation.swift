@@ -14,6 +14,8 @@ import UIKit
     @objc public var rm:String!
     @objc public var rtype:String!
     @objc public var ralgo:String!
+    @objc public var rsrc:Bool = false
+    @objc public var recency:NSNumber?
 }
 @objc public protocol SlikeRecommendationData:AnyObject {
     func recommendationClickInformation(slikeMDO:SlikeModel)
@@ -21,7 +23,8 @@ import UIKit
 
 
 @objcMembers
-@objc final public class SlikeRecommendation: NSObject, SlikeRecommendationData {    
+@objc final public class SlikeRecommendationManager: NSObject, SlikeRecommendationData {
+    var fromEndScreen = false;
     public func recommendationClickInformation(slikeMDO: SlikeModel) {
         self.delegate?.recommendationClickInformation(slikeMDO: slikeMDO)
     }
@@ -48,28 +51,39 @@ import UIKit
         if let msid = self.msid, let sid = self.sid {
             self.viewModel = SlikeRecommendationViewModel(sid: sid, msid: msid)
             self.viewModel?.bindDataViewContollers = {
-                print(self.viewModel?.slikeRecommendationModel)
                 completion(true,self.viewModel?.slikeRecommendationModel)
             }
         }
     }
     
     @objc public func getSlikeRecommendationView(rect:CGRect,fromEndScreen:Bool, completion: @escaping (_ status:Bool,_ view:UIView?)->Void) {
+        self.fromEndScreen = fromEndScreen;
         if let msid = self.msid, let sid = self.sid {
+            //Need to work
+            if self.viewModel != nil ,let data = self.viewModel?.slikeRecommendationModel {
+                self.slikeRecommendationView.isFromEndScreen = fromEndScreen
+                self.slikeRecommendationView.loadRecommendationUI(data: data)
+                if data.count > 0 {
+                    completion(true,self.slikeRecommendationView)
+                }else {
+                    completion(false,nil)
+                }
+            }else {
             self.viewModel = SlikeRecommendationViewModel(sid: sid, msid: msid)
-            self.viewModel?.bindDataViewContollers = {
-                self.slikeRecommendationView.frame = rect
-                self.slikeRecommendationView.delegate = self
-                if let data = self.viewModel?.slikeRecommendationModel {
-                    self.slikeRecommendationView.isFromEndScreen = fromEndScreen
-                    self.slikeRecommendationView.loadRecommendationUI(data: data)
-                    if data.count > 0 {
-                        completion(true,self.slikeRecommendationView)
+                self.viewModel?.bindDataViewContollers = {
+                    self.slikeRecommendationView.frame = rect
+                    self.slikeRecommendationView.delegate = self
+                    if let data = self.viewModel?.slikeRecommendationModel {
+                        self.slikeRecommendationView.isFromEndScreen = fromEndScreen
+                        self.slikeRecommendationView.loadRecommendationUI(data: data)
+                        if data.count > 0 {
+                            completion(true,self.slikeRecommendationView)
+                        }else {
+                            completion(false,nil)
+                        }
                     }else {
                         completion(false,nil)
                     }
-                }else {
-                    completion(false,nil)
                 }
             }
         }

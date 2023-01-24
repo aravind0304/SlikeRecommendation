@@ -63,7 +63,6 @@ extension APIClient {
                     } catch {
                         do {
                             let errorResponce = try JSONDecoder().decode(ErrorResponce.self, from: data)
-                            print(errorResponce)
                             completion(nil, .emptyData)
                         }catch {
                             completion(nil, .responseUnsuccessful)
