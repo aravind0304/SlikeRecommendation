@@ -16,6 +16,8 @@ import UIKit
     @objc public var ralgo:String!
     @objc public var rsrc:Bool = false
     @objc public var recency:NSNumber?
+    @objc public var thumb:String!
+
 }
 @objc public protocol SlikeRecommendationData:AnyObject {
     func recommendationClickInformation(slikeMDO:SlikeModel)

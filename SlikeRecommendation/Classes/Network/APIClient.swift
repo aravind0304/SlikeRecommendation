@@ -44,7 +44,9 @@ extension APIClient {
     }
 //    func getDataObject<T: Decodable>(url:String,decodingType: T.Type, parametrs:[String:String],action:HTTPMethod, completion: @escaping  JSONTaskCompletionHandler) {
     func getDataObject<T: Decodable>(url:String,decodingType: T.Type, parametrs:[String:String], completion: @escaping  JSONTaskCompletionHandler) {
-
+       
+        print("AAAAA \(url)");
+        
         if let url = URL(string: url) {
             let task = URLSession.shared.dataTask(with: url) { dataResponce, response, error in
                 if error != nil {
@@ -55,7 +57,7 @@ extension APIClient {
                    (200...299).contains(httpResponse.statusCode)  {
                     if let data = dataResponce {
                         if  let jsonString = NSString(data: data, encoding: String.Encoding.utf8.rawValue) {
-                            print(jsonString)
+                            print("AAAAA \(jsonString)")
                         }
                         do {
                             let genericModel = try JSONDecoder().decode(decodingType, from: data)
