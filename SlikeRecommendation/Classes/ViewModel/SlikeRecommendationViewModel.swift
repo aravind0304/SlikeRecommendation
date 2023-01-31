@@ -16,9 +16,9 @@ class SlikeRecommendationViewModel {
             bindDataViewContollers?()
         }
     }
-   
+    
     init(sid:String,msid:String) {
-    self.dataHandler = SlikeRecommenFeedData(sid: sid, msid: msid)
+        self.dataHandler = SlikeRecommenFeedData(sid: sid, msid: msid)
         self.dataHandler.fetchDataModel { [weak self](res:(Result<[SlikeRecommendationModel], APIError>)) in
             switch res {
             case .success(let result):
@@ -28,7 +28,7 @@ class SlikeRecommendationViewModel {
                 print("the error \(error)")
                 guard let strongSelf = self else { return }
                 strongSelf.slikeRecommendationModel = nil
-
+                
             }
         }
     }
@@ -37,11 +37,9 @@ class SlikeRecommendationViewModel {
 class SlikeRecommenFeedData:APIClient {
     var sid = ""
     var msid = ""
-
     init(sid:String,msid:String) {
         self.sid = sid
         self.msid = msid
-
     }
     private var parametrs:[String:String] {
         get {
