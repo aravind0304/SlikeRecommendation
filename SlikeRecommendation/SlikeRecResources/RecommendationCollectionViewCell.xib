@@ -37,7 +37,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play.png" translatesAutoresizingMaskIntoConstraints="NO" id="w0n-CT-Czv">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w0n-CT-Czv">
                                         <rect key="frame" x="0.0" y="0.0" width="16" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="8Xt-ky-B47"/>
@@ -117,7 +117,4 @@
             <point key="canvasLocation" x="74.809160305343511" y="0.0"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="play.png" width="48" height="48"/>
-    </resources>
 </document>
