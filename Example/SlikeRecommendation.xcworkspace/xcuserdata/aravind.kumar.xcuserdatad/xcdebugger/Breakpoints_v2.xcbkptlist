@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "50497729-B4BD-4305-BB63-47687C58569F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../SlikeRecommendation/Classes/ReportView/ReportViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "50497729-B4BD-4305-BB63-47687C58569F - fc45503503cdbb88"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SlikeRecommendation.ReportViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
-                  moduleName = "SlikeRecommendation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aravind.kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "126">
-               </Location>
-               <Location
-                  uuid = "50497729-B4BD-4305-BB63-47687C58569F - fc45503503cdbbab"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SlikeRecommendation.ReportViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
-                  moduleName = "SlikeRecommendation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aravind.kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "126">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "5E1180B0-5EFF-4C6D-B695-5BAD15138C51"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -103,33 +55,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EFFB043F-B808-42F5-A0FA-603A0AE655C7"
+            uuid = "8B59DB75-45CF-456F-87E5-57C1671FA686"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../SlikeRecommendation/Classes/ReportView/ReportHeaderTableViewCell.swift"
+            filePath = "../SlikeRecommendation/Classes/ReportView/ReportViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "awakeFromNib()"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "tableView(_:heightForRowAt:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F183A8E8-DD5E-4F8F-9625-EE243B24878E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../SlikeRecommendation/Classes/ReportView/ReportHeaderTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "setSelected(_:animated:)"
-            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8B59DB75-45CF-456F-87E5-57C1671FA686 - 462fa71b3dde8f22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlikeRecommendation.ReportViewController.tableView(_: __C.UITableView, heightForRowAt: Foundation.IndexPath) -&gt; CoreGraphics.CGFloat"
+                  moduleName = "SlikeRecommendation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aravind.kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  uuid = "8B59DB75-45CF-456F-87E5-57C1671FA686 - 462fa71b3dde8ec3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlikeRecommendation.ReportViewController.tableView(_: __C.UITableView, heightForRowAt: Foundation.IndexPath) -&gt; CoreGraphics.CGFloat"
+                  moduleName = "SlikeRecommendation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aravind.kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

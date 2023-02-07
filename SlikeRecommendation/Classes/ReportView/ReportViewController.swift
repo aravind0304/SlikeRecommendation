@@ -17,7 +17,7 @@ class ReportViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         self.registerNib()
-//      self.tbView.delegate = self
+      self.tbView.delegate = self
         self.tbView.dataSource = self
     }
     func registerNib() {
@@ -54,17 +54,16 @@ extension ReportViewController:UITableViewDelegate,UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if indexPath.row == 0 {
-            return 200
+            return 400
         }
         return 0
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        print(self.tbView.dequeueReusableCell(withIdentifier: kReportHeaderTableViewCell, for: indexPath) as? ReportHeaderTableViewCell)
-        
+                
         guard let cell : ReportHeaderTableViewCell = tableView.dequeueReusableCell(withIdentifier: kReportHeaderTableViewCell, for: indexPath) as? ReportHeaderTableViewCell else {
             fatalError("Unable to Dequeue Reusable Table View Cell")
         }
+        cell.backgroundColor = UIColor.clear
         
         return cell
     }
