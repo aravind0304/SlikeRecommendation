@@ -2,7 +2,7 @@ PODS:
   - Alamofire (5.6.4)
   - AlamofireImage (4.2.0):
     - Alamofire (~> 5.4)
-  - SlikeRecommendation (1.1.0):
+  - SlikeRecommendation (1.1.1):
     - AlamofireImage
 
 DEPENDENCIES:
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
-  SlikeRecommendation: fd6c089355c14831ab7a4cbbaf30c9df9fee2164
+  SlikeRecommendation: a076d72e2eaf451fe18f60d039f2ab6231cdcc45
 
-PODFILE CHECKSUM: 84329d35a730d194ded0a1a60e8c6ef20f323ae8
+PODFILE CHECKSUM: 8ba5d14825b7b34d1efbe91f88ddbd9147431464
 
 COCOAPODS: 1.11.3

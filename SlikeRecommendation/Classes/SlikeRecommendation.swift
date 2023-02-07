@@ -38,7 +38,6 @@ import UIKit
         return view
     }()
     
-
     var viewModel:SlikeRecommendationViewModel?
     var sid:String?
     var msid:String?
@@ -48,7 +47,6 @@ import UIKit
         self.sid = sid
         self.msid = msid
     }
-    
     public func getSlikeRecommendation(completion: @escaping (_ status:Bool,_ model:[SlikeRecommendationModel]?)->Void) {
         if let msid = self.msid, let sid = self.sid {
             self.viewModel = SlikeRecommendationViewModel(sid: sid, msid: msid)
@@ -93,4 +91,12 @@ import UIKit
     @objc public func autoClickAction() {
         self.slikeRecommendationView.autoPlayStart()
     }
+    public func showReportPage(with viewController:UIViewController) {
+       print("Aravind Kumar")
+       let reportViewController = ReportViewController(nibName: "ReportViewController", bundle: RecBundleManager.resourcesBundle())
+       reportViewController.modalPresentationStyle = .popover
+       viewController.present(reportViewController, animated: true)
+
+   }
+    
 }

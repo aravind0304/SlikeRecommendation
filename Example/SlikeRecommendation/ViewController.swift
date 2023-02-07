@@ -21,12 +21,19 @@ class ViewController: UIViewController, SlikeRecommendationData {
         override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+            //self.recLoad()
+    }
+    @IBAction func showAction(_ sender: Any) {
+        self.loadReportPage()
+
+    }
+    func loadReportPage() {
+        self.slikeRecommendation = SlikeRecommendationManager(sid: "1x5e4he99z", msid: "93287120")
+        self.slikeRecommendation?.showReportPage(with: self)
+    }
+    func recLoad() {
         self.slikeRecommendation = SlikeRecommendationManager(sid: "1x5e4he99z", msid: "93287120")
             self.slikeRecommendation?.delegate = self
-        //self.slikeRecommendation?.delegate = self
-//        self.slikeRecommendation?.getSlikeRecommendation(completion: { status,model  in
-//            print(model)
-//        })
         self.loadViewCall()
     }
     func loadViewCall() {
