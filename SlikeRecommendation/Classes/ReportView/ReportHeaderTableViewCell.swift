@@ -13,6 +13,8 @@ class ReportHeaderTableViewCell: UITableViewCell {
     weak var delegate:SelctActionType?
     var thisDeviceSelect = true
     var reportDay = 11
+   
+    @IBOutlet weak var lblSelctIsuue: UILabel!
     @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var txtField: UITextField!
     @IBOutlet weak var txtMobileNo: UITextField!

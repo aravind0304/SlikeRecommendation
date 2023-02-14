@@ -8,6 +8,7 @@
 import UIKit
 
 class ReportViewController: UIViewController {
+    var reportString = ""
     @IBOutlet weak var btnClose: UIButton!
     private let kReportHeaderTableViewCell = "ReportHeaderTableViewCell"
     @IBOutlet weak var tbView: UITableView!
@@ -70,7 +71,11 @@ extension ReportViewController:UITableViewDelegate,UITableViewDataSource {
         }
         cell.backgroundColor = UIColor.clear
         cell.delegate = self
-        
+        if self.reportString == "" {
+            cell.lblSelctIsuue.text  = "Select an issue"
+        }else {
+            cell.lblSelctIsuue.text  = self.reportString
+        }
         return cell
     }
     
@@ -78,15 +83,19 @@ extension ReportViewController:UITableViewDelegate,UITableViewDataSource {
         
     }
 }
-extension ReportViewController : SelctActionType {
+extension ReportViewController : SelctActionType,RoprtListSelctActionType {
+    
+    func selctValue(vaule: String) {
+        self.reportString = vaule
+        self.tbView.reloadData()
+    }
+    
     func selctValue(vaule: Int) {
         if vaule == 11 {
-            //Open List
-            //RoprtListViewController
-            print("Aravind")
-            //
             let roprtListViewController = RoprtListViewController(nibName: "RoprtListViewController", bundle: RecBundleManager.resourcesBundle())
-            roprtListViewController.modalPresentationStyle = .fullScreen
+            roprtListViewController.modalPresentationStyle = .overCurrentContext
+            roprtListViewController.view.backgroundColor = UIColor.clear
+            roprtListViewController.delegate = self
             self.present(roprtListViewController, animated: true)
         }
     }

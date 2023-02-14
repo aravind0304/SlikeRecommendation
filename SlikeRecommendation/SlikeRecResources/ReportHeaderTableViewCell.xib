@@ -432,8 +432,8 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </stackView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Briefly explan your issue (optional)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hI-oZ-RyY">
-                        <rect key="frame" x="15" y="509.66666666666674" width="236" height="18"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Briefly explain your issue (optional)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hI-oZ-RyY">
+                        <rect key="frame" x="15.000000000000014" y="509.66666666666674" width="239.33333333333337" height="18"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -622,6 +622,7 @@
                 <outlet property="imgToday" destination="qPb-4u-eOn" id="5ln-e6-cKB"/>
                 <outlet property="imgWeek" destination="OtU-GD-QvV" id="sRH-I5-ypB"/>
                 <outlet property="lblHint" destination="Rxh-uw-lui" id="nl4-sa-nFi"/>
+                <outlet property="lblSelctIsuue" destination="wD7-db-zG5" id="dea-XR-4ee"/>
                 <outlet property="selctAnIssue" destination="kba-wO-tBc" id="8r8-oW-GzS"/>
                 <outlet property="txtEmail" destination="1gg-ta-mEH" id="j3k-qh-oJb"/>
                 <outlet property="txtField" destination="ilM-BB-WND" id="W7e-M4-YE5"/>

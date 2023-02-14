@@ -16,6 +16,8 @@ class ReoprtOptionTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        radioBtn.image = RecBundleManager.image(named: "radio_button_unchecked")
+
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
