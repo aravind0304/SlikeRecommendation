@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
   s.source_files = 'SlikeRecommendation/Classes/**/*'
   #s.dependency 'Alamofire'
   s.dependency 'AlamofireImage'
+  s.dependency 'IQKeyboardManagerSwift', '6.3.0'
 
 end

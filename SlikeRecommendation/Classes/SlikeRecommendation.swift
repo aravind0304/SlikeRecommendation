@@ -92,9 +92,8 @@ import UIKit
         self.slikeRecommendationView.autoPlayStart()
     }
     public func showReportPage(with viewController:UIViewController) {
-       print("Aravind Kumar")
        let reportViewController = ReportViewController(nibName: "ReportViewController", bundle: RecBundleManager.resourcesBundle())
-       reportViewController.modalPresentationStyle = .popover
+       reportViewController.modalPresentationStyle = .fullScreen
        viewController.present(reportViewController, animated: true)
 
    }
