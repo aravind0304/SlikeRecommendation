@@ -5,11 +5,13 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReportViewController" customModule="SlikeRecResources" customModuleProvider="target">
             <connections>
+                <outlet property="btnClose" destination="Kbw-mn-eLf" id="mkI-sv-rwK"/>
                 <outlet property="tbView" destination="jHI-yr-UaY" id="4w5-E9-41h"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -23,10 +25,39 @@
                     <rect key="frame" x="0.0" y="48" width="414" height="814"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdc-ox-NPQ">
+                    <rect key="frame" x="370" y="48" width="24" height="24"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbw-mn-eLf">
+                            <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="sl_close.png"/>
+                            <connections>
+                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="x71-Wc-Qiu"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Kbw-mn-eLf" secondAttribute="trailing" id="67o-U1-pEC"/>
+                        <constraint firstAttribute="height" constant="24" id="EAZ-ht-TKX"/>
+                        <constraint firstItem="Kbw-mn-eLf" firstAttribute="leading" secondItem="jdc-ox-NPQ" secondAttribute="leading" id="FTe-Gk-wyv"/>
+                        <constraint firstAttribute="bottom" secondItem="Kbw-mn-eLf" secondAttribute="bottom" id="RTW-dM-fPQ"/>
+                        <constraint firstAttribute="width" constant="24" id="TlR-jJ-KTu"/>
+                        <constraint firstItem="Kbw-mn-eLf" firstAttribute="top" secondItem="jdc-ox-NPQ" secondAttribute="top" id="jJx-R2-VmQ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="jdc-ox-NPQ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="3Km-Ex-B5Z"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jdc-ox-NPQ" secondAttribute="trailing" constant="20" id="3O0-0e-kha"/>
                 <constraint firstItem="jHI-yr-UaY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="MLP-Sk-Rbv"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jHI-yr-UaY" secondAttribute="trailing" id="MOn-fY-aMk"/>
                 <constraint firstItem="jHI-yr-UaY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gHJ-9Y-r3J"/>
@@ -35,4 +66,10 @@
             <point key="canvasLocation" x="-328" y="39"/>
         </view>
     </objects>
+    <resources>
+        <image name="sl_close.png" width="18" height="18"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

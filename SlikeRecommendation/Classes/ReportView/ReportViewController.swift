@@ -8,8 +8,8 @@
 import UIKit
 
 class ReportViewController: UIViewController {
+    @IBOutlet weak var btnClose: UIButton!
     private let kReportHeaderTableViewCell = "ReportHeaderTableViewCell"
-
     @IBOutlet weak var tbView: UITableView!
     
     override func viewDidLoad() {
@@ -19,6 +19,9 @@ class ReportViewController: UIViewController {
         self.registerNib()
       self.tbView.delegate = self
         self.tbView.dataSource = self
+        self.btnClose.setImage(RecBundleManager.image(named: "sl_close"), for: .normal)
+        self.btnClose.setImage(RecBundleManager.image(named: "sl_close"), for: .selected)
+
     }
     func registerNib() {
         
@@ -26,7 +29,9 @@ class ReportViewController: UIViewController {
         print(nibView)
         self.tbView.register(nibView, forCellReuseIdentifier: kReportHeaderTableViewCell)
     }
-
+    @IBAction func closeAction(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
 }
 extension ReportViewController:UITableViewDelegate,UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
