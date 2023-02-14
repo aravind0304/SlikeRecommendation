@@ -69,11 +69,19 @@ extension ReportViewController:UITableViewDelegate,UITableViewDataSource {
             fatalError("Unable to Dequeue Reusable Table View Cell")
         }
         cell.backgroundColor = UIColor.clear
+        cell.delegate = self
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+    }
+}
+extension ReportViewController : SelctActionType {
+    func selctValue(vaule: Int) {
+        if vaule == 11 {
+            //Open List
+        }
     }
 }

@@ -6,8 +6,11 @@
 //
 
 import UIKit
-
+protocol SelctActionType:AnyObject {
+    func selctValue(vaule:Int)
+}
 class ReportHeaderTableViewCell: UITableViewCell {
+    weak var delegate:SelctActionType?
     var thisDeviceSelect = true
     var reportDay = 11
     @IBOutlet weak var txtEmail: UITextField!
@@ -98,6 +101,9 @@ class ReportHeaderTableViewCell: UITableViewCell {
             imgR2.image = RecBundleManager.image(named: "radio_button_checked")
             imgR1.image = RecBundleManager.image(named: "radio_button_unchecked")
         }
+    }
+    @IBAction func selctIssueAction(_ sender: Any) {
+        self.delegate?.selctValue(vaule: 11)
     }
 }
 extension ReportHeaderTableViewCell : UITextFieldDelegate {
