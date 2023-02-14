@@ -29,6 +29,28 @@ class ReportHeaderTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        txtEmail.attributedPlaceholder = NSAttributedString(
+            string: "Enter your Email Id",
+            attributes: [NSAttributedString.Key.foregroundColor: UIColor.white.withAlphaComponent(0.7)]
+        )
+        txtMobileNo.attributedPlaceholder = NSAttributedString(
+            string: "Enter your Mobile Number",
+            attributes: [NSAttributedString.Key.foregroundColor: UIColor.white.withAlphaComponent(0.7)]
+        )
+        txtField.attributedPlaceholder = NSAttributedString(
+            string: txtField.placeholder ?? "",
+            attributes: [NSAttributedString.Key.foregroundColor: UIColor.white.withAlphaComponent(0.7)]
+        )
+        txtEmail.delegate = self
+        txtEmail.keyboardType = .emailAddress
+        
+        txtMobileNo.delegate = self
+        txtMobileNo.keyboardType = .phonePad
+
+        txtField.delegate = self
+        txtField.keyboardType = .default
+        
+        imgRow.image = RecBundleManager.image(named: "expandR")
         self.selctImage()
         self.selctReportDay()
     }
@@ -76,5 +98,36 @@ class ReportHeaderTableViewCell: UITableViewCell {
             imgR2.image = RecBundleManager.image(named: "radio_button_checked")
             imgR1.image = RecBundleManager.image(named: "radio_button_unchecked")
         }
+    }
+}
+extension ReportHeaderTableViewCell : UITextFieldDelegate {
+    
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        return true
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        let currentString: NSString = textField.text! as NSString
+        let newString: NSString =
+        currentString.replacingCharacters(in: range, with: string) as NSString
+        
+        if newString.length == 1 && newString == " " {
+            return false
+        }
+        if textField == txtEmail || textField == txtMobileNo {
+            if newString.length >= 20 {
+                return false
+            }
+        }else  if textField == txtField  {
+            if newString.length > 600 {
+                return false
+            }
+            self.lblHint.text = "\(newString.length)/600"
+        }
+        return true
     }
 }
