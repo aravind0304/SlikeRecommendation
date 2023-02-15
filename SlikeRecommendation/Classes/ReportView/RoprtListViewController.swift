@@ -43,7 +43,6 @@ class RoprtListViewController: UIViewController {
     func registerNib() {
         
         let nibView = UINib(nibName: "ReoprtOptionTableViewCell", bundle: RecBundleManager.resourcesBundle())
-        print(nibView)
         self.tbView.register(nibView, forCellReuseIdentifier: kReoprtOptionTableViewCell)
     }
     @IBAction func closeAction(_ sender: Any) {

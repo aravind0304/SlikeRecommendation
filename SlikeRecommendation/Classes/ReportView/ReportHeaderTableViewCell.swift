@@ -8,6 +8,7 @@
 import UIKit
 protocol SelctActionType:AnyObject {
     func selctValue(vaule:Int)
+    func updateTextField(type:Int,value:String)
 }
 class ReportHeaderTableViewCell: UITableViewCell {
     weak var delegate:SelctActionType?
@@ -87,11 +88,16 @@ class ReportHeaderTableViewCell: UITableViewCell {
         
         if self.reportDay == 11 {
             imgToday.image = RecBundleManager.image(named: "radio_button_checked")
+            self.delegate?.selctValue(vaule: 15)
+
         }else if self.reportDay == 12 {
             imgWeek.image = RecBundleManager.image(named: "radio_button_checked")
+            self.delegate?.selctValue(vaule: 16)
+
         }
         else if self.reportDay == 13 {
             imgMonth.image = RecBundleManager.image(named: "radio_button_checked")
+            self.delegate?.selctValue(vaule: 17)
         }
 
     }
@@ -99,13 +105,22 @@ class ReportHeaderTableViewCell: UITableViewCell {
         if thisDeviceSelect {
             imgR1.image = RecBundleManager.image(named: "radio_button_checked")
             imgR2.image = RecBundleManager.image(named: "radio_button_unchecked")
+            self.delegate?.selctValue(vaule: 13)
+
         }else {
             imgR2.image = RecBundleManager.image(named: "radio_button_checked")
             imgR1.image = RecBundleManager.image(named: "radio_button_unchecked")
+            self.delegate?.selctValue(vaule: 14)
+
         }
+        
     }
     @IBAction func selctIssueAction(_ sender: Any) {
         self.delegate?.selctValue(vaule: 11)
+    }
+    
+    @IBAction func subMitAction(_ sender: Any) {
+        self.delegate?.selctValue(vaule: 12)
     }
 }
 extension ReportHeaderTableViewCell : UITextFieldDelegate {
@@ -126,15 +141,25 @@ extension ReportHeaderTableViewCell : UITextFieldDelegate {
         if newString.length == 1 && newString == " " {
             return false
         }
-        if textField == txtEmail || textField == txtMobileNo {
+        if textField == txtEmail  {
             if newString.length >= 20 {
                 return false
             }
+            self.delegate?.updateTextField(type: 1, value: newString as String)
+            
+        } else if textField == txtMobileNo {
+            if newString.length >= 20 {
+                return false
+            }
+            self.delegate?.updateTextField(type: 2, value: newString as String)
+
         }else  if textField == txtField  {
             if newString.length > 600 {
                 return false
             }
             self.lblHint.text = "\(newString.length)/600"
+            self.delegate?.updateTextField(type: 3, value: newString as String)
+
         }
         return true
     }

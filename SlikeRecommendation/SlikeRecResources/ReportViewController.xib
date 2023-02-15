@@ -11,7 +11,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReportViewController" customModule="SlikeRecResources" customModuleProvider="target">
             <connections>
+                <outlet property="activityLoader" destination="rdO-pp-err" id="Ixm-Bm-pQj"/>
                 <outlet property="btnClose" destination="Kbw-mn-eLf" id="mkI-sv-rwK"/>
+                <outlet property="loaderView" destination="Ue4-t8-FFf" id="knQ-0n-eIA"/>
                 <outlet property="tbView" destination="jHI-yr-UaY" id="4w5-E9-41h"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -22,11 +24,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="jHI-yr-UaY">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <rect key="frame" x="0.0" y="48" width="414" height="814"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdc-ox-NPQ">
-                    <rect key="frame" x="370" y="0.0" width="24" height="24"/>
+                    <rect key="frame" x="370" y="48" width="24" height="24"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbw-mn-eLf">
                             <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
@@ -52,14 +54,31 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ue4-t8-FFf">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="rdO-pp-err">
+                            <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="rdO-pp-err" firstAttribute="centerX" secondItem="Ue4-t8-FFf" secondAttribute="centerX" id="7e3-CP-yhU"/>
+                        <constraint firstItem="rdO-pp-err" firstAttribute="centerY" secondItem="Ue4-t8-FFf" secondAttribute="centerY" id="Q3m-xZ-onr"/>
+                    </constraints>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="Ue4-t8-FFf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2oT-ol-Its"/>
                 <constraint firstItem="jdc-ox-NPQ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="3Km-Ex-B5Z"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jdc-ox-NPQ" secondAttribute="trailing" constant="20" id="3O0-0e-kha"/>
+                <constraint firstItem="Ue4-t8-FFf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="BTe-LQ-arA"/>
                 <constraint firstItem="jHI-yr-UaY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="MLP-Sk-Rbv"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jHI-yr-UaY" secondAttribute="trailing" id="MOn-fY-aMk"/>
+                <constraint firstAttribute="trailing" secondItem="Ue4-t8-FFf" secondAttribute="trailing" id="a3w-fY-jot"/>
+                <constraint firstAttribute="bottom" secondItem="Ue4-t8-FFf" secondAttribute="bottom" id="cy6-Y6-jNt"/>
                 <constraint firstItem="jHI-yr-UaY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gHJ-9Y-r3J"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="jHI-yr-UaY" secondAttribute="bottom" id="sOD-K3-2GV"/>
             </constraints>
