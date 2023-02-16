@@ -16,15 +16,13 @@ class RoprtListViewController: UIViewController {
                     "Unable to use player controls",
                     "Audio not in Sync",
                     "No audio or sounds unclear",
-                    "Subtitles not in sync",
                     "Video frequently buffering or lagging",
                     "Video is stuck while audio keeps playing",
                     "Video crashed & redirected to previous page",
                     "Video did not even start",
                     "Video did not start after the ad",
                     "Seeing an error message",
-                    "Facing other video related issue",
-                    "I am seeing a black screen"]
+                    "I am seeing a black screen","Others"]
     private let kReoprtOptionTableViewCell = "ReoprtOptionTableViewCell"
     @IBOutlet weak var tbView: UITableView!
     override func viewDidLoad() {
