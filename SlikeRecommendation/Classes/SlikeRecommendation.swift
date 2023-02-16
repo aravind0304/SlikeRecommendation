@@ -91,9 +91,10 @@ import UIKit
     @objc public func autoClickAction() {
         self.slikeRecommendationView.autoPlayStart()
     }
-    public func showReportPage(with viewController:UIViewController,withSS:String) {
+    public func showReportPage(with viewController:UIViewController,withSS:String, feedbackSubmitBaseUrl:String) {
        let reportViewController = ReportViewController(nibName: "ReportViewController", bundle: RecBundleManager.resourcesBundle())
         reportViewController.ss = withSS
+        reportViewController.feedbackSubmitBaseUrl = feedbackSubmitBaseUrl
        reportViewController.modalPresentationStyle = .fullScreen
        viewController.present(reportViewController, animated: true)
 

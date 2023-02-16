@@ -9,7 +9,7 @@ import UIKit
 
 class ReportViewController: UIViewController {
     var ss = ""
-
+    var feedbackSubmitBaseUrl = ""
     @IBOutlet weak var activityLoader: UIActivityIndicatorView!
     
     @IBOutlet weak var loaderView: UIView!
@@ -136,7 +136,7 @@ extension ReportViewController : SelctActionType,RoprtListSelctActionType {
     func submitData(parameterDictionary:[String:Any]) {
         self.showHideLoader(show: true)
         
-        let Url = String(format: "https://vsnl.slike.in/devcmsapi/feedback")
+        let Url = String(format: self.feedbackSubmitBaseUrl)
         guard let serviceUrl = URL(string: Url) else { return }
         var request = URLRequest(url: serviceUrl)
         request.httpMethod = "POST"
