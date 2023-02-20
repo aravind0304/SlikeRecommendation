@@ -12,17 +12,17 @@ protocol RoprtListSelctActionType:AnyObject {
 class RoprtListViewController: UIViewController {
     weak var delegate:RoprtListSelctActionType?
     @IBOutlet weak var btnClose: UIButton!
-    var optionsArray = ["Video is blurry/pixelated",
-                    "Unable to use player controls",
-                    "Audio not in Sync",
+    var optionsArray = ["Video is blurry",
+                    "Unable to seek video",
+                    "Fullscreen not working",
                     "No audio or sounds unclear",
-                    "Video frequently buffering or lagging",
-                    "Video is stuck while audio keeps playing",
-                    "Video crashed & redirected to previous page",
-                    "Video did not even start",
-                    "Video did not start after the ad",
+                    "Frequent buffering",
+                    "Media not playing",
+                    "Media has not started after the ad",
                     "Seeing an error message",
-                    "I am seeing a black screen","Others"]
+                    "Facing other video related issues",
+                    "Black screen",
+                    "Other problem"]
     private let kReoprtOptionTableViewCell = "ReoprtOptionTableViewCell"
     @IBOutlet weak var tbView: UITableView!
     override func viewDidLoad() {

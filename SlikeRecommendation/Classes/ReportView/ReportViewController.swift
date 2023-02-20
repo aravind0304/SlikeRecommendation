@@ -9,6 +9,10 @@ import UIKit
 
 class ReportViewController: UIViewController {
     var ss = ""
+    var API_KEY = ""
+    var SECTION_NAME = ""
+    var usid = ""
+
     var feedbackSubmitBaseUrl = ""
     @IBOutlet weak var activityLoader: UIActivityIndicatorView!
     
@@ -79,14 +83,18 @@ extension ReportViewController:UITableViewDelegate,UITableViewDataSource {
         cell.backgroundColor = UIColor.clear
         cell.delegate = self
         if self.reportString == "" {
-            cell.lblSelctIsuue.text  = "Select an issue"
+            cell.lblSelctIsuue.text  = "- Select -"
         }else {
             cell.lblSelctIsuue.text  = self.reportString
         }
-        if self.reportString == "Others" {
-            cell.lblBrife.text = "Briefly explain your issue (Required)"
+        if self.reportString == "Other problem" {
+            let text = NSMutableAttributedString()
+            text.append(NSAttributedString(string: "Details of the issue", attributes: [NSAttributedString.Key.foregroundColor: UIColor.white]));
+            text.append(NSAttributedString(string: "*", attributes: [NSAttributedString.Key.foregroundColor: UIColor.red]))
+
+            cell.lblBrife.attributedText = text
         }else {
-            cell.lblBrife.text = "Briefly explain your issue (optional)"
+            cell.lblBrife.text = "Details of the issue"
         }
         return cell
     }
@@ -117,16 +125,23 @@ extension ReportViewController : SelctActionType,RoprtListSelctActionType {
         }
         else if vaule == 12 {
             //Submit
-            if reportString == "Others" && self.explanation == "" {
+            if reportString == ""  {
+                self.showAlert(isSucess: false, message: "Please select an issue")
+                return
+            }
+            else if reportString == "Other problem" && self.explanation == "" {
                 self.showAlert(isSucess: false, message: "Briefly explain your issue")
                 return
             }
-            let dict = ["issueValue"    : reportString,
-                        "deviceModel"   : UIDevice.modelName,
-                        "OSVersion"     : self.getOSInfo(),
-                        "deviceType"    : "iOS",
+            let dict = ["issue_value"    : reportString,
+                        "device_model"   : UIDevice.modelName,
+                        "os_version"     : self.getOSInfo(),
+                        "device_type"    : "iOS",
                         "explanation"   : self.explanation,
-                        "ss"            : self.ss
+                        "ss"            : self.ss,
+                        "usid"          :self.usid,
+                        "section_name"  :self.SECTION_NAME,
+                        "api_key"       :self.API_KEY
             ]
             print(dict)
             self.submitData(parameterDictionary: dict)
@@ -141,6 +156,8 @@ extension ReportViewController : SelctActionType,RoprtListSelctActionType {
         var request = URLRequest(url: serviceUrl)
         request.httpMethod = "POST"
         request.setValue("Application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue("zuQLsOIo6p", forHTTPHeaderField: "jwttoken")
+
         guard let httpBody = try? JSONSerialization.data(withJSONObject: parameterDictionary, options: []) else {
             return
         }
