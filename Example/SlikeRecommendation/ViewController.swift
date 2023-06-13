@@ -28,8 +28,8 @@ class ViewController: UIViewController, SlikeRecommendationData {
 
     }
     func loadReportPage() {
-        self.slikeRecommendation = SlikeRecommendationManager(sid: "1x5e4he99z", msid: "93287120")
-        self.slikeRecommendation?.showReportPage(with: self)
+//        self.slikeRecommendation = SlikeRecommendationManager(sid: "1x5e4he99z", msid: "93287120")
+//        self.slikeRecommendation?.showReportPage(with: <#T##UIViewController#>, withSS: <#T##String#>, feedbackSubmitBaseUrl: <#T##String#>, API_KEY: <#T##String#>, SECTION_NAME: <#T##String#>, usid: <#T##String#>)
     }
     func recLoad() {
         self.slikeRecommendation = SlikeRecommendationManager(sid: "1x5e4he99z", msid: "93287120")

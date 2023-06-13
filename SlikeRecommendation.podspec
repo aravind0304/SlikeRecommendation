@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SlikeRecommendation'
-  s.version          = '1.1.1'
+  s.version          = '1.2.1'
   s.summary          = 'A short description of SlikeRecommendation.'
   s.homepage         = 'timesinternet.in'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -14,6 +14,5 @@ Pod::Spec.new do |s|
   s.source_files = 'SlikeRecommendation/Classes/**/*'
   #s.dependency 'Alamofire'
   s.dependency 'AlamofireImage'
-  s.dependency 'IQKeyboardManagerSwift', '6.3.0'
 
 end
