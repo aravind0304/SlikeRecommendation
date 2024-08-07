@@ -62,7 +62,7 @@ public class SlikeRecommendationView: UIView {
                 slikeModel.slikeID = slikeid;
                 slikeModel.rmn = mdo.rmn ?? "";
                 slikeModel.rm = mdo.rm ?? "";
-                slikeModel.rtype = mdo.rtype ?? "";
+                slikeModel.rtype = "\(mdo.rtype ?? 0)";
                 slikeModel.ralgo = mdo.ralgo ?? "";
                 slikeModel.thumb = mdo.thumb ?? "";
                 slikeModel.rsrc = isFromEndScreen;
@@ -97,7 +97,7 @@ extension SlikeRecommendationView:UICollectionViewDelegate {
             slikeModel.slikeID = slikeid;
             slikeModel.rmn = mdo.rmn ?? "";
             slikeModel.rm = mdo.rm ?? "";
-            slikeModel.rtype = mdo.rtype ?? "";
+            slikeModel.rtype = "\(mdo.rtype ?? 0)";
             slikeModel.ralgo = mdo.ralgo ?? "";
             slikeModel.thumb = mdo.thumb ?? "";
             slikeModel.rsrc = isFromEndScreen;

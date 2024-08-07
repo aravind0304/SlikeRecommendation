@@ -31,12 +31,26 @@ class RecommendationCollectionViewCell: UICollectionViewCell {
     }
     func setloadData(data:SlikeRecommendationModel) {
         self.posterImageView.backgroundColor = UIColor.black
-        if let img = data.thumb, let url = URL(string: img) {
-            self.posterImageView.af.setImage(withURL: url)
+        self.posterImageView.image = nil
+        if var img = data.thumb {
+            if !img.hasPrefix("http") {
+                img = "https:" + img
+            }
+            if let url = URL(string: img) {
+                print(url);
+                self.posterImageView.af.setImage(withURL: url)
+            }
+        }else  if var img = data.image {
+            if !img.hasPrefix("http") {
+                img = "https:" + img
+            }
+            if let url = URL(string: img) {
+                print(url);
+                self.posterImageView.af.setImage(withURL: url)
+            }
         }
         lblDution.text = data.duration ?? "00:00"
         lblTitle.text = data.title
-
     }
     
 }

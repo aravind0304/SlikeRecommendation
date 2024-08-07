@@ -21,7 +21,7 @@ class ViewController: UIViewController, SlikeRecommendationData {
         override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-            //self.recLoad()
+            self.recLoad()
     }
     @IBAction func showAction(_ sender: Any) {
         self.loadReportPage()

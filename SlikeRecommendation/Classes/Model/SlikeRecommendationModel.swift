@@ -19,10 +19,13 @@ public struct SlikeRecommendationModel: Codable {
     let image: String?
     let inputWordCount: Int?
     let k: String?
-    let msid, product: Int?
+    let msid:Int?
+    let product: String?
     let ralgo: String?
     let recency: Int?
-    let rm, rmn, rtype, score: String?
+    let rm, rmn: String?
+    let score:Double?
+    let rtype:Int?
     let seopath: String?
     let thumb: String?
     let title: String
