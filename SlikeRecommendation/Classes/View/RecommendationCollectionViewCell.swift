@@ -7,6 +7,8 @@ import AlamofireImage
 //#define SlikePlayerImagePause(file,imageBundle)  [UIImage imageNamed:file inBundle:imageBundle compatibleWithTraitCollection:nil]
 
 class RecommendationCollectionViewCell: UICollectionViewCell {
+    
+    @IBOutlet weak var innerView: UIView!
     @IBOutlet weak var lblDution: UILabel!
     
     @IBOutlet weak var viewDuration: UIView!
@@ -18,6 +20,11 @@ class RecommendationCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        innerView.layer.cornerRadius = 3.0
+        innerView.layer.borderWidth = 1.0
+        innerView.layer.borderColor = UIColor.white.withAlphaComponent(0.3).cgColor
+
+        
         self.posterImageView.clipsToBounds = true
         self.layer.cornerRadius = 3.0
         self.clipsToBounds = true
@@ -37,7 +44,7 @@ class RecommendationCollectionViewCell: UICollectionViewCell {
                 img = "https:" + img
             }
             if let url = URL(string: img) {
-                print(url);
+               // print(url);
                 self.posterImageView.af.setImage(withURL: url)
             }
         }else  if var img = data.image {
@@ -45,7 +52,7 @@ class RecommendationCollectionViewCell: UICollectionViewCell {
                 img = "https:" + img
             }
             if let url = URL(string: img) {
-                print(url);
+               // print(url);
                 self.posterImageView.af.setImage(withURL: url)
             }
         }

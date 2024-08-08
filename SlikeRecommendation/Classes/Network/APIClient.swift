@@ -42,7 +42,6 @@ extension APIClient {
     func getAPIType() -> Bool {
         return false
     }
-//    func getDataObject<T: Decodable>(url:String,decodingType: T.Type, parametrs:[String:String],action:HTTPMethod, completion: @escaping  JSONTaskCompletionHandler) {
     func getDataObject<T: Decodable>(url:String,decodingType: T.Type, parametrs:[String:String], completion: @escaping  JSONTaskCompletionHandler) {
        
         print("AAAAA \(url)");

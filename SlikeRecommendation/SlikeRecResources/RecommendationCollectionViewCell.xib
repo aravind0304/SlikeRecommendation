@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,7 +25,14 @@
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zvx-Uc-7Gr">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="200"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dhn-0z-qLj">
+                                <rect key="frame" x="0.0" y="160" width="300" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.55000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Pg8-CT-NDZ"/>
+                                </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Wg-Wc-2ex">
                                 <rect key="frame" x="240" y="0.0" width="60" height="20"/>
@@ -45,7 +52,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.75294117647058822" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.75294117647058822" green="0.15686274509803921" blue="0.15686274509803921" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="Icw-Ip-net"/>
                                     <constraint firstAttribute="height" constant="20" id="Wfm-EU-yP8"/>
@@ -63,7 +70,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.94901960784313721" green="0.65098039215686276" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.65098039215686276" blue="0.2196078431372549" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="0Oe-hx-PHs" firstAttribute="centerY" secondItem="vKd-39-HZ2" secondAttribute="centerY" id="JxE-T8-aX8"/>
                                     <constraint firstAttribute="width" constant="60" id="S9e-IF-cSa"/>
@@ -81,6 +88,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Zlg-SX-ViH" firstAttribute="leading" secondItem="zCP-bh-fBc" secondAttribute="leading" id="3OU-Zj-HWy"/>
+                            <constraint firstAttribute="bottom" secondItem="dhn-0z-qLj" secondAttribute="bottom" id="60Q-0R-QXG"/>
+                            <constraint firstAttribute="trailing" secondItem="dhn-0z-qLj" secondAttribute="trailing" id="7JS-x6-SXW"/>
                             <constraint firstItem="2Wg-Wc-2ex" firstAttribute="top" secondItem="zCP-bh-fBc" secondAttribute="top" id="7Ml-93-VIW"/>
                             <constraint firstAttribute="trailing" secondItem="o02-2b-N7J" secondAttribute="trailing" constant="5" id="A9b-pU-Cb7"/>
                             <constraint firstAttribute="bottom" secondItem="Zlg-SX-ViH" secondAttribute="bottom" id="JZz-IS-I8R"/>
@@ -92,6 +101,7 @@
                             <constraint firstItem="Zvx-Uc-7Gr" firstAttribute="top" secondItem="zCP-bh-fBc" secondAttribute="top" id="kM9-ab-X2q"/>
                             <constraint firstItem="o02-2b-N7J" firstAttribute="leading" secondItem="zCP-bh-fBc" secondAttribute="leading" constant="5" id="l5g-ly-hSF"/>
                             <constraint firstAttribute="trailing" secondItem="Zvx-Uc-7Gr" secondAttribute="trailing" id="oLh-dj-ybN"/>
+                            <constraint firstItem="dhn-0z-qLj" firstAttribute="leading" secondItem="zCP-bh-fBc" secondAttribute="leading" id="sA4-E3-Qno"/>
                             <constraint firstAttribute="bottom" secondItem="Zvx-Uc-7Gr" secondAttribute="bottom" id="v4W-0d-PUF"/>
                             <constraint firstItem="vKd-39-HZ2" firstAttribute="leading" secondItem="zCP-bh-fBc" secondAttribute="leading" id="zKL-2p-9GP"/>
                             <constraint firstItem="vKd-39-HZ2" firstAttribute="top" secondItem="zCP-bh-fBc" secondAttribute="top" id="zfn-pF-yd4"/>
@@ -108,6 +118,7 @@
             </constraints>
             <connections>
                 <outlet property="img" destination="w0n-CT-Czv" id="RlF-LJ-qIc"/>
+                <outlet property="innerView" destination="zCP-bh-fBc" id="GOK-8b-v84"/>
                 <outlet property="lblDution" destination="B7n-Xd-82q" id="rCT-Ye-j9D"/>
                 <outlet property="lblTitle" destination="o02-2b-N7J" id="SQy-yu-mdN"/>
                 <outlet property="nextView" destination="vKd-39-HZ2" id="Frb-ic-7ff"/>
