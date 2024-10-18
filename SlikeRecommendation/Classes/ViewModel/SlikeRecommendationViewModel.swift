@@ -53,7 +53,7 @@ class SlikeRecommenFeedData:APIClient {
         return parametrs
     }
     func getBaseUrlPath() -> String {
-        return Environment.current.baseAPIUrl + "similar/result.json?" + "sid=\(self.sid)" + "&" + "msid=\(self.msid)" + "&" + "rand=\("\(Date().millisecondsSince1970)")"
+        return Environment.current.baseAPIUrl + "similar/result.json?" + "sid=\(self.sid)" + "&" + "msid=\(self.msid)"
         
     }
 }
