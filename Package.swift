@@ -1,11 +1,3 @@
-//
-//  Package.swift
-//  Pods
-//
-//  Created by Aravind Kumar on 05/08/25.
-//
-
-
 // swift-tools-version:5.6
 import PackageDescription
 
