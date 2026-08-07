@@ -114,6 +114,36 @@
             endingLineNumber = "22"
             landmarkName = "init(sid:msid:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62A00ED5-0675-4C53-8609-0FC28735398C - a4f6df212bd0c5a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlikeRecommendation.SlikeRecommendationViewModel.init(sid: Swift.String, msid: Swift.String) -&gt; SlikeRecommendation.SlikeRecommendationViewModel"
+                  moduleName = "SlikeRecommendation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ViewModel/SlikeRecommendationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22">
+               </Location>
+               <Location
+                  uuid = "62A00ED5-0675-4C53-8609-0FC28735398C - 60c77dec6ec89c59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SlikeRecommendation.Result&lt;Swift.Array&lt;SlikeRecommendation.SlikeRecommendationModel&gt;, SlikeRecommendation.APIError&gt;) -&gt; () in SlikeRecommendation.SlikeRecommendationViewModel.init(sid: Swift.String, msid: Swift.String) -&gt; SlikeRecommendation.SlikeRecommendationViewModel"
+                  moduleName = "SlikeRecommendation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ViewModel/SlikeRecommendationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -130,6 +160,36 @@
             endingLineNumber = "90"
             landmarkName = "fetchDataModel(completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "01484629-DFD3-4717-B213-6FFD6D047BEE - cd380c2e9cac7de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Decodable&gt;, Swift.Optional&lt;SlikeRecommendation.APIError&gt;) -&gt; () in SlikeRecommendation.APIClient.fetchDataModel&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(completion: (SlikeRecommendation.Result&lt;&#x3c4;_1_0, SlikeRecommendation.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SlikeRecommendation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91">
+               </Location>
+               <Location
+                  uuid = "01484629-DFD3-4717-B213-6FFD6D047BEE - c2e7a7666997f30a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Decodable&gt;, Swift.Optional&lt;SlikeRecommendation.APIError&gt;) -&gt; () in SlikeRecommendation.APIClient.fetchDataModel&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(completion: (SlikeRecommendation.Result&lt;&#x3c4;_1_0, SlikeRecommendation.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SlikeRecommendation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -162,6 +222,36 @@
             endingLineNumber = "49"
             landmarkName = "getDataObject(url:decodingType:parametrs:completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8C3F554C-FA0B-47BB-BC85-4FFF61F90358 - fef5170e6979ac96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlikeRecommendation.APIClient.getDataObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(url: Swift.String, decodingType: &#x3c4;_1_0.Type, parametrs: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, completion: (Swift.Optional&lt;Swift.Decodable&gt;, Swift.Optional&lt;SlikeRecommendation.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SlikeRecommendation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49">
+               </Location>
+               <Location
+                  uuid = "8C3F554C-FA0B-47BB-BC85-4FFF61F90358 - 64cbd28139b41979"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SlikeRecommendation.APIClient.getDataObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(url: Swift.String, decodingType: &#x3c4;_1_0.Type, parametrs: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, completion: (Swift.Optional&lt;Swift.Decodable&gt;, Swift.Optional&lt;SlikeRecommendation.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SlikeRecommendation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

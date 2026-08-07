@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
-  SlikeRecommendation: 7e789da96eeef647832f0bcdb564acf3e38c5a4d
+  SlikeRecommendation: 1e8ea56d888c66f8caad2540cf11eaf40c08a622
 
 PODFILE CHECKSUM: 8ba5d14825b7b34d1efbe91f88ddbd9147431464
 
