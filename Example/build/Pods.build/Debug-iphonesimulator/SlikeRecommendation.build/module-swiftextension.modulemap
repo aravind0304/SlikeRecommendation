@@ -1,0 +1,4 @@
+
+module SlikeRecommendation.Swift {
+  header "SlikeRecommendation-Swift.h"
+}

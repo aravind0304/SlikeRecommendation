@@ -48,3 +48,5 @@ Thumbs.db
 *.mov
 *.wmv
 
+.build/arm64-apple-macosx/debug/SlikeRecommendation.build
+.build/arm64-apple-macosx/debug/index/store/v5/records/YR

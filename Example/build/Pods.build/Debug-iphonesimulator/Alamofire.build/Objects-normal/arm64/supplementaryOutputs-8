@@ -1,0 +1,23 @@
+{
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/Alamofire/Source/RequestInterceptor.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/RequestInterceptor.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/RequestInterceptor.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/RequestInterceptor.dia",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/RequestInterceptor.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/RequestInterceptor.swiftdeps"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/Alamofire/Source/RequestTaskMap.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/RequestTaskMap.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/RequestTaskMap.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/RequestTaskMap.dia",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/RequestTaskMap.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/RequestTaskMap.swiftdeps"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/Alamofire/Source/Response.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Response.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Response.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Response.dia",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Response.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Response.swiftdeps"
+  }
+}

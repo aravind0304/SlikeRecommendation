@@ -1,0 +1,4 @@
+
+module SlikeRecommendation.__Swift {
+  exclude header "SlikeRecommendation-Swift.h"
+}

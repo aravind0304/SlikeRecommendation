@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "AlamofireImage-Swift.h",
+      "external-contents": "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/unextended-interface-header.h",
+    }]
+  }]
+}

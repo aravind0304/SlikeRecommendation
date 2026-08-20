@@ -1,0 +1,23 @@
+{
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/Alamofire/Source/MultipartUpload.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/MultipartUpload.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/MultipartUpload.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/MultipartUpload.dia",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/MultipartUpload.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/MultipartUpload.swiftdeps"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/Alamofire/Source/NetworkReachabilityManager.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/NetworkReachabilityManager.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/NetworkReachabilityManager.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/NetworkReachabilityManager.dia",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/NetworkReachabilityManager.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/NetworkReachabilityManager.swiftdeps"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/Alamofire/Source/Notifications.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Notifications.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Notifications.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Notifications.dia",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Notifications.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Notifications.swiftdeps"
+  }
+}

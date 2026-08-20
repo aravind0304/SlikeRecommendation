@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		61A52DDDAAB7C046EA17D65B /* Pods_SlikeRecommendation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B6D75804CC2B25E1C5DCDF /* Pods_SlikeRecommendation_Example.framework */; };
+		A31341623036FAD90008B60F /* SlikeRecommendation in Frameworks */ = {isa = PBXBuildFile; productRef = A31341613036FAD90008B60F /* SlikeRecommendation */; };
+		A31341653036FF630008B60F /* SlikeRecommendation in Frameworks */ = {isa = PBXBuildFile; productRef = A31341643036FF630008B60F /* SlikeRecommendation */; };
+		A31341683037007C0008B60F /* SlikeRecommendation in Frameworks */ = {isa = PBXBuildFile; productRef = A31341673037007C0008B60F /* SlikeRecommendation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +33,7 @@
 		74B6D75804CC2B25E1C5DCDF /* Pods_SlikeRecommendation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlikeRecommendation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46BE0744A5DBEA19E49CE0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DE188B974D8320C32864FCE5 /* Pods-SlikeRecommendation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlikeRecommendation_Example.release.xcconfig"; path = "Target Support Files/Pods-SlikeRecommendation_Example/Pods-SlikeRecommendation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EBE912D225318B72EAEBD0CD /* SlikeRecommendation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SlikeRecommendation.podspec; path = ../SlikeRecommendation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EBE912D225318B72EAEBD0CD /* SlikeRecommendation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SlikeRecommendation.podspec; path = ../SlikeRecommendation.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +41,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A31341683037007C0008B60F /* SlikeRecommendation in Frameworks */,
+				A31341623036FAD90008B60F /* SlikeRecommendation in Frameworks */,
 				61A52DDDAAB7C046EA17D65B /* Pods_SlikeRecommendation_Example.framework in Frameworks */,
+				A31341653036FF630008B60F /* SlikeRecommendation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +148,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				D85BA466CB16A4932E174995 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +184,9 @@
 				Base,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
+			packageReferences = (
+				A31341663037007C0008B60F /* XCLocalSwiftPackageReference "../SlikeRecommendation" */,
+			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -202,28 +210,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D85BA466CB16A4932E174995 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SlikeRecommendation_Example/Pods-SlikeRecommendation_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SlikeRecommendation/SlikeRecommendation.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlikeRecommendation.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SlikeRecommendation_Example/Pods-SlikeRecommendation_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F6070D0B21F075CFE648F568 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,7 +360,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -386,7 +373,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SlikeRecommendation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,7 +392,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SlikeRecommendation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +426,28 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A31341663037007C0008B60F /* XCLocalSwiftPackageReference "../SlikeRecommendation" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SlikeRecommendation;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A31341613036FAD90008B60F /* SlikeRecommendation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SlikeRecommendation;
+		};
+		A31341643036FF630008B60F /* SlikeRecommendation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SlikeRecommendation;
+		};
+		A31341673037007C0008B60F /* SlikeRecommendation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SlikeRecommendation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }

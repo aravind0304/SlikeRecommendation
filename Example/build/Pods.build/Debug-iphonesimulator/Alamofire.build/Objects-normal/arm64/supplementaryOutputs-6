@@ -1,0 +1,23 @@
+{
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/Alamofire/Source/OperationQueue+Alamofire.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/OperationQueue+Alamofire.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/OperationQueue+Alamofire.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/OperationQueue+Alamofire.dia",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/OperationQueue+Alamofire.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/OperationQueue+Alamofire.swiftdeps"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/Alamofire/Source/ParameterEncoder.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/ParameterEncoder.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/ParameterEncoder.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/ParameterEncoder.dia",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/ParameterEncoder.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/ParameterEncoder.swiftdeps"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/Alamofire/Source/ParameterEncoding.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/ParameterEncoding.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/ParameterEncoding.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/ParameterEncoding.dia",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/ParameterEncoding.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/ParameterEncoding.swiftdeps"
+  }
+}

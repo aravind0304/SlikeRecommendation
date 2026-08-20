@@ -1,0 +1,99 @@
+{
+  "" : {
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AlamofireImage-primary.dia",
+    "emit-module-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AlamofireImage-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AlamofireImage-primary-emit-module.dia",
+    "pch" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AlamofireImage-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AlamofireImage-primary.swiftdeps"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/AlamofireImage/Source/AFIError.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AFIError.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AFIError.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AFIError.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AFIError.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AFIError.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AFIError.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AFIError.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/AFIError~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/AlamofireImage/Source/Image.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Image.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Image.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Image.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Image.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Image.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Image.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Image.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Image~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/AlamofireImage/Source/ImageCache.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageCache.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageCache.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageCache.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageCache.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageCache.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageCache.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageCache.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageCache~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/AlamofireImage/Source/ImageDownloader.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageDownloader.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageDownloader.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageDownloader.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageDownloader.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageDownloader.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageDownloader.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageDownloader.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageDownloader~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/AlamofireImage/Source/ImageFilter.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageFilter.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageFilter.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageFilter.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageFilter.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageFilter.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageFilter.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageFilter.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/ImageFilter~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/AlamofireImage/Source/Request+AlamofireImage.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Request+AlamofireImage.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Request+AlamofireImage.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Request+AlamofireImage.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Request+AlamofireImage.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Request+AlamofireImage.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Request+AlamofireImage.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Request+AlamofireImage.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/Request+AlamofireImage~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIButton+AlamofireImage.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIButton+AlamofireImage.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIButton+AlamofireImage.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIButton+AlamofireImage.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIButton+AlamofireImage.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIButton+AlamofireImage.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIButton+AlamofireImage.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIButton+AlamofireImage~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImage+AlamofireImage.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImage+AlamofireImage.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImage+AlamofireImage.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImage+AlamofireImage.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImage+AlamofireImage.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImage+AlamofireImage.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImage+AlamofireImage.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImage+AlamofireImage~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImageView+AlamofireImage.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImageView+AlamofireImage.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImageView+AlamofireImage.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImageView+AlamofireImage.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImageView+AlamofireImage.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImageView+AlamofireImage.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImageView+AlamofireImage.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/Objects-normal/arm64/UIImageView+AlamofireImage~partial.swiftmodule"
+  }
+}

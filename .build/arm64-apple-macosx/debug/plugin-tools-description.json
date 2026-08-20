@@ -1,0 +1,1874 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire_Alamofire.bundle/PrivacyInfo.xcprivacy" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/PrivacyInfo.xcprivacy"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire_Alamofire.bundle/PrivacyInfo.xcprivacy"
+        }
+      ]
+    },
+    "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation_SlikeRecommendation.bundle/RecommendationCollectionViewCell.xib" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/SlikeRecResources/RecommendationCollectionViewCell.xib"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation_SlikeRecommendation.bundle/RecommendationCollectionViewCell.xib"
+        }
+      ]
+    },
+    "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation_SlikeRecommendation.bundle/ReoprtOptionTableViewCell.xib" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/SlikeRecResources/ReoprtOptionTableViewCell.xib"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation_SlikeRecommendation.bundle/ReoprtOptionTableViewCell.xib"
+        }
+      ]
+    },
+    "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation_SlikeRecommendation.bundle/ReportHeaderTableViewCell.xib" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/SlikeRecResources/ReportHeaderTableViewCell.xib"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation_SlikeRecommendation.bundle/ReportHeaderTableViewCell.xib"
+        }
+      ]
+    },
+    "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation_SlikeRecommendation.bundle/ReportViewController.xib" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/SlikeRecResources/ReportViewController.xib"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation_SlikeRecommendation.bundle/ReportViewController.xib"
+        }
+      ]
+    },
+    "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation_SlikeRecommendation.bundle/RoprtListViewController.xib" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/SlikeRecResources/RoprtListViewController.xib"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation_SlikeRecommendation.bundle/RoprtListViewController.xib"
+        }
+      ]
+    },
+    "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation_SlikeRecommendation.bundle/SlikeRecommendationView.xib" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/SlikeRecResources/SlikeRecommendationView.xib"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation_SlikeRecommendation.bundle/SlikeRecommendationView.xib"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Alamofire-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/sources",
+      "importPath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/AFError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/DataRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/DataStreamRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/DownloadRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/HTTPHeaders.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/HTTPMethod.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Notifications.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/ParameterEncoder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/ParameterEncoding.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Protected.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Request.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/RequestTaskMap.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Response.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Session.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/SessionDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/URLConvertible+URLRequestConvertible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/UploadRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/WebSocketRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/DispatchQueue+Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/OperationQueue+Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/Result+Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/StringEncoding+Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/URLRequest+Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/URLSessionConfiguration+Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/AlamofireExtended.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/AuthenticationInterceptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/CachedResponseHandler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/Combine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/Concurrency.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/EventMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/MultipartFormData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/MultipartUpload.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/NetworkReachabilityManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/OfflineRetrier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RedirectHandler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RequestCompression.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RequestInterceptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/ResponseSerialization.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RetryPolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/ServerTrustEvaluation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/URLEncodedFormEncoder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/Validation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<Alamofire-arm64-apple-macosx-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Alamofire",
+      "moduleOutputPath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules/Alamofire.swiftmodule",
+      "objects" : [
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Alamofire.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/AFError.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DataRequest.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DataStreamRequest.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DownloadRequest.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/HTTPHeaders.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/HTTPMethod.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Notifications.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/ParameterEncoder.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/ParameterEncoding.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Protected.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Request.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RequestTaskMap.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Response.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Session.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/SessionDelegate.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/URLConvertible+URLRequestConvertible.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/UploadRequest.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/WebSocketRequest.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DispatchQueue+Alamofire.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/OperationQueue+Alamofire.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Result+Alamofire.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/StringEncoding+Alamofire.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/URLRequest+Alamofire.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/URLSessionConfiguration+Alamofire.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/AlamofireExtended.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/AuthenticationInterceptor.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/CachedResponseHandler.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Combine.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Concurrency.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/EventMonitor.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/MultipartFormData.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/MultipartUpload.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/NetworkReachabilityManager.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/OfflineRetrier.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RedirectHandler.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RequestCompression.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RequestInterceptor.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/ResponseSerialization.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RetryPolicy.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/ServerTrustEvaluation.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/URLEncodedFormEncoder.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Validation.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-module-cache-path",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/include/Alamofire-Swift.h",
+        "-swift-version",
+        "5",
+        "-enable-upcoming-feature",
+        "ExistentialAny",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings",
+        "-user-module-version",
+        "5.12.0",
+        "-package-name",
+        "alamofire"
+      ],
+      "outputFileMapPath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/AFError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DataRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DataStreamRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DownloadRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/HTTPHeaders.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/HTTPMethod.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Notifications.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/ParameterEncoder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/ParameterEncoding.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Protected.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Request.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RequestTaskMap.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Response.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Session.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/SessionDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/URLConvertible+URLRequestConvertible.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/UploadRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/WebSocketRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DispatchQueue+Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/OperationQueue+Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Result+Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/StringEncoding+Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/URLRequest+Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/URLSessionConfiguration+Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/AlamofireExtended.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/AuthenticationInterceptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/CachedResponseHandler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Combine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Concurrency.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/EventMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/MultipartFormData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/MultipartUpload.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/NetworkReachabilityManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/OfflineRetrier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RedirectHandler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RequestCompression.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RequestInterceptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/ResponseSerialization.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RetryPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/ServerTrustEvaluation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/URLEncodedFormEncoder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Validation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules/Alamofire.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Alamofire.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/AFError.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/DataRequest.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/DataStreamRequest.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/DownloadRequest.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/HTTPHeaders.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/HTTPMethod.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Notifications.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/ParameterEncoder.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/ParameterEncoding.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Protected.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Request.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/RequestTaskMap.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Response.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Session.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/SessionDelegate.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/URLConvertible+URLRequestConvertible.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/UploadRequest.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/WebSocketRequest.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/DispatchQueue+Alamofire.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/OperationQueue+Alamofire.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/Result+Alamofire.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/StringEncoding+Alamofire.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/URLRequest+Alamofire.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/URLSessionConfiguration+Alamofire.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/AlamofireExtended.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/AuthenticationInterceptor.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/CachedResponseHandler.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/Combine.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/Concurrency.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/EventMonitor.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/MultipartFormData.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/MultipartUpload.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/NetworkReachabilityManager.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/OfflineRetrier.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RedirectHandler.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RequestCompression.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RequestInterceptor.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/ResponseSerialization.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RetryPolicy.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/ServerTrustEvaluation.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/URLEncodedFormEncoder.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/Validation.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AlamofireImage-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/sources",
+      "importPath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/AFIError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/Image.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/ImageCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/ImageDownloader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/ImageFilter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/Request+AlamofireImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/UIButton+AlamofireImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/UIImage+AlamofireImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/UIImageView+AlamofireImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules/Alamofire.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AlamofireImage",
+      "moduleOutputPath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules/AlamofireImage.swiftmodule",
+      "objects" : [
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/AFIError.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/Image.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/ImageCache.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/ImageDownloader.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/ImageFilter.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/Request+AlamofireImage.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/UIButton+AlamofireImage.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/UIImage+AlamofireImage.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/UIImageView+AlamofireImage.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/include/AlamofireImage-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings",
+        "-user-module-version",
+        "4.4.0",
+        "-package-name",
+        "alamofireimage"
+      ],
+      "outputFileMapPath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/AFIError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/Image.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/ImageCache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/ImageDownloader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/ImageFilter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/Request+AlamofireImage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/UIButton+AlamofireImage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/UIImage+AlamofireImage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/UIImageView+AlamofireImage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules/AlamofireImage.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/AFIError.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/Image.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/ImageCache.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/ImageDownloader.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/ImageFilter.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/Request+AlamofireImage.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/UIButton+AlamofireImage.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/UIImage+AlamofireImage.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/UIImageView+AlamofireImage.swift"
+      ],
+      "tempsPath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SlikeRecommendation-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/sources",
+      "importPath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Helper/SlikeRecommendationExtension.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Model/SlikeRecommendationModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/APIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/APIProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/BaseURLDev.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/BaseURLProd.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/Environment.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/RecBundleManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReoprtOptionTableViewCell.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportHeaderTableViewCell.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/RoprtListViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/SlikeRecommendation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/View/RecommendationCollectionViewCell.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/View/SlikeRecommendationView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ViewModel/SlikeRecommendationViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<SlikeRecommendation-arm64-apple-macosx-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules/AlamofireImage.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SlikeRecommendation",
+      "moduleOutputPath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules/SlikeRecommendation.swiftmodule",
+      "objects" : [
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/SlikeRecommendationExtension.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/SlikeRecommendationModel.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/APIClient.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/APIProtocol.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/BaseURLDev.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/BaseURLProd.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/Environment.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/RecBundleManager.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/ReoprtOptionTableViewCell.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/ReportHeaderTableViewCell.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/ReportViewController.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/RoprtListViewController.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/SlikeRecommendation.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/RecommendationCollectionViewCell.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/SlikeRecommendationView.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/SlikeRecommendationViewModel.swift.o",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-module-cache-path",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/include/SlikeRecommendation-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/SlikeRecommendationExtension.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/SlikeRecommendationModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/APIClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/APIProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/BaseURLDev.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/BaseURLProd.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/Environment.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/RecBundleManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/ReoprtOptionTableViewCell.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/ReportHeaderTableViewCell.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/ReportViewController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/RoprtListViewController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/SlikeRecommendation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/RecommendationCollectionViewCell.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/SlikeRecommendationView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/SlikeRecommendationViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules/SlikeRecommendation.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Helper/SlikeRecommendationExtension.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Model/SlikeRecommendationModel.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/APIClient.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/APIProtocol.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/BaseURLDev.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/BaseURLProd.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/Environment.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/RecBundleManager.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReoprtOptionTableViewCell.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportHeaderTableViewCell.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportViewController.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/RoprtListViewController.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/SlikeRecommendation.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/View/RecommendationCollectionViewCell.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/View/SlikeRecommendationView.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ViewModel/SlikeRecommendationViewModel.swift",
+        "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Alamofire" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Alamofire",
+      "-package-name",
+      "alamofire",
+      "-c",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Alamofire.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/AFError.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/DataRequest.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/DataStreamRequest.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/DownloadRequest.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/HTTPHeaders.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/HTTPMethod.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Notifications.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/ParameterEncoder.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/ParameterEncoding.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Protected.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Request.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/RequestTaskMap.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Response.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Session.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/SessionDelegate.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/URLConvertible+URLRequestConvertible.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/UploadRequest.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/WebSocketRequest.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/DispatchQueue+Alamofire.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/OperationQueue+Alamofire.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/Result+Alamofire.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/StringEncoding+Alamofire.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/URLRequest+Alamofire.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/URLSessionConfiguration+Alamofire.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/AlamofireExtended.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/AuthenticationInterceptor.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/CachedResponseHandler.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/Combine.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/Concurrency.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/EventMonitor.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/MultipartFormData.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/MultipartUpload.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/NetworkReachabilityManager.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/OfflineRetrier.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RedirectHandler.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RequestCompression.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RequestInterceptor.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/ResponseSerialization.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RetryPolicy.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/ServerTrustEvaluation.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/URLEncodedFormEncoder.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/Validation.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-module-cache-path",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/include/Alamofire-Swift.h",
+      "-swift-version",
+      "5",
+      "-enable-upcoming-feature",
+      "ExistentialAny",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-user-module-version",
+      "5.12.0",
+      "-package-name",
+      "alamofire",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AlamofireImage" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AlamofireImage",
+      "-package-name",
+      "alamofireimage",
+      "-c",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/AFIError.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/Image.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/ImageCache.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/ImageDownloader.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/ImageFilter.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/Request+AlamofireImage.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/UIButton+AlamofireImage.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/UIImage+AlamofireImage.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/UIImageView+AlamofireImage.swift",
+      "-I",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/include/AlamofireImage-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-user-module-version",
+      "4.4.0",
+      "-package-name",
+      "alamofireimage",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SlikeRecommendation" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SlikeRecommendation",
+      "-c",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Helper/SlikeRecommendationExtension.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Model/SlikeRecommendationModel.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/APIClient.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/APIProtocol.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/BaseURLDev.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/BaseURLProd.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/Environment.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/RecBundleManager.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReoprtOptionTableViewCell.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportHeaderTableViewCell.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportViewController.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/RoprtListViewController.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/SlikeRecommendation.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/View/RecommendationCollectionViewCell.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/View/SlikeRecommendationView.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ViewModel/SlikeRecommendationViewModel.swift",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-module-cache-path",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/include/SlikeRecommendation-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Alamofire" : [
+
+    ],
+    "AlamofireImage" : [
+      "Alamofire"
+    ],
+    "SlikeRecommendation" : [
+      "AlamofireImage",
+      "Alamofire"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/AFError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/DataRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/DataStreamRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/DownloadRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/HTTPHeaders.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/HTTPMethod.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Notifications.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/ParameterEncoder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/ParameterEncoding.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Protected.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Request.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/RequestTaskMap.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Response.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/Session.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/SessionDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/URLConvertible+URLRequestConvertible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/UploadRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Core/WebSocketRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/DispatchQueue+Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/OperationQueue+Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/Result+Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/StringEncoding+Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/URLRequest+Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Extensions/URLSessionConfiguration+Alamofire.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/AlamofireExtended.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/AuthenticationInterceptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/CachedResponseHandler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/Combine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/Concurrency.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/EventMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/MultipartFormData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/MultipartUpload.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/NetworkReachabilityManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/OfflineRetrier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RedirectHandler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RequestCompression.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RequestInterceptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/ResponseSerialization.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/RetryPolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/ServerTrustEvaluation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/URLEncodedFormEncoder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/Alamofire/Source/Features/Validation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/sources"
+    },
+    "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireDynamic.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/AFError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/AlamofireExtended.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/AuthenticationInterceptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/CachedResponseHandler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Combine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Concurrency.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DataRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DataStreamRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DispatchQueue+Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/DownloadRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/EventMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/HTTPHeaders.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/HTTPMethod.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/MultipartFormData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/MultipartUpload.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/NetworkReachabilityManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Notifications.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/OfflineRetrier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/OperationQueue+Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/ParameterEncoder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/ParameterEncoding.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Protected.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RedirectHandler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Request.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RequestCompression.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RequestInterceptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RequestTaskMap.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Response.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/ResponseSerialization.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Result+Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/RetryPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/ServerTrustEvaluation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Session.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/SessionDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/StringEncoding+Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/URLConvertible+URLRequestConvertible.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/URLEncodedFormEncoder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/URLRequest+Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/URLSessionConfiguration+Alamofire.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/UploadRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/Validation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/WebSocketRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/Alamofire.build/resource_bundle_accessor.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireDynamic.product/Objects.LinkFileList"
+    },
+    "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/AFIError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/Image.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/ImageCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/ImageDownloader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/ImageFilter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/Request+AlamofireImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/UIButton+AlamofireImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/UIImage+AlamofireImage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/checkouts/AlamofireImage/Source/UIImageView+AlamofireImage.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/AlamofireImage.build/sources"
+    },
+    "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Helper/SlikeRecommendationExtension.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Model/SlikeRecommendationModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/APIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/APIProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/BaseURLDev.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/BaseURLProd.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/Environment.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/RecBundleManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReoprtOptionTableViewCell.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportHeaderTableViewCell.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/RoprtListViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/SlikeRecommendation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/View/RecommendationCollectionViewCell.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/View/SlikeRecommendationView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ViewModel/SlikeRecommendationViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/SlikeRecommendation.build/sources"
+    },
+    "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+framework module SlikeRecommendation {
+  umbrella header "SlikeRecommendation-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SlikeRecommendation.Swift {
+  header "SlikeRecommendation-Swift.h"
+}

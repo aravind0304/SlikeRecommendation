@@ -3,6 +3,6 @@ use_frameworks!
 platform :ios, '12.0'
 
 target 'SlikeRecommendation_Example' do
-  pod 'SlikeRecommendation', :path => '../'
+ # pod 'SlikeRecommendation', :path => '../'
 
 end

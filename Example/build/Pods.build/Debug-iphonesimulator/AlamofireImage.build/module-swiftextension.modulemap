@@ -1,0 +1,4 @@
+
+module AlamofireImage.Swift {
+  header "AlamofireImage-Swift.h"
+}

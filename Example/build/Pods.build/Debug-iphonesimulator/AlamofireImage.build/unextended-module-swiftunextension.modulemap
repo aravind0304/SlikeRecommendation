@@ -1,0 +1,4 @@
+
+module AlamofireImage.__Swift {
+  exclude header "AlamofireImage-Swift.h"
+}

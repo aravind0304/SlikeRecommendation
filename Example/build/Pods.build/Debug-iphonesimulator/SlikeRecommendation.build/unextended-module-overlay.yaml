@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Debug-iphonesimulator/SlikeRecommendation/SlikeRecommendation.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Debug-iphonesimulator/SlikeRecommendation/SlikeRecommendation.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "SlikeRecommendation-Swift.h",
+      "external-contents": "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/unextended-interface-header.h",
+    }]
+  }]
+}

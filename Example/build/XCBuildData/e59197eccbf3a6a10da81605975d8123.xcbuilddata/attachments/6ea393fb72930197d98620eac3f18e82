@@ -1,0 +1,169 @@
+{
+  "" : {
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation-primary.dia",
+    "emit-module-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation-primary-emit-module.dia",
+    "pch" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation-primary.swiftdeps"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Helper/SlikeRecommendationExtension.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationExtension.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationExtension.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationExtension.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationExtension.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationExtension.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationExtension.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationExtension.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationExtension~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Model/SlikeRecommendationModel.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationModel.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationModel.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationModel.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationModel.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationModel.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationModel.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationModel.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationModel~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/APIClient.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIClient.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIClient.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIClient.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIClient.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIClient.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIClient.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIClient.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIClient~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/APIProtocol.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIProtocol.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIProtocol.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIProtocol.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIProtocol.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIProtocol.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIProtocol.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIProtocol.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/APIProtocol~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/BaseURLDev.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLDev.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLDev.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLDev.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLDev.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLDev.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLDev.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLDev.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLDev~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/BaseURLProd.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLProd.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLProd.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLProd.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLProd.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLProd.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLProd.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLProd.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/BaseURLProd~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/Network/Environment/Environment.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/Environment.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/Environment.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/Environment.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/Environment.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/Environment.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/Environment.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/Environment.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/Environment~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/RecBundleManager.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecBundleManager.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecBundleManager.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecBundleManager.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecBundleManager.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecBundleManager.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecBundleManager.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecBundleManager.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecBundleManager~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReoprtOptionTableViewCell.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReoprtOptionTableViewCell.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReoprtOptionTableViewCell.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReoprtOptionTableViewCell.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReoprtOptionTableViewCell.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReoprtOptionTableViewCell.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReoprtOptionTableViewCell.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReoprtOptionTableViewCell.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReoprtOptionTableViewCell~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportHeaderTableViewCell.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportHeaderTableViewCell.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportHeaderTableViewCell.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportHeaderTableViewCell.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportHeaderTableViewCell.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportHeaderTableViewCell.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportHeaderTableViewCell.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportHeaderTableViewCell.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportHeaderTableViewCell~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/ReportViewController.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportViewController.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportViewController.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportViewController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportViewController.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportViewController.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportViewController.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportViewController.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/ReportViewController~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ReportView/RoprtListViewController.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RoprtListViewController.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RoprtListViewController.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RoprtListViewController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RoprtListViewController.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RoprtListViewController.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RoprtListViewController.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RoprtListViewController.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RoprtListViewController~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/SlikeRecommendation.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendation~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/View/RecommendationCollectionViewCell.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecommendationCollectionViewCell.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecommendationCollectionViewCell.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecommendationCollectionViewCell.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecommendationCollectionViewCell.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecommendationCollectionViewCell.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecommendationCollectionViewCell.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecommendationCollectionViewCell.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/RecommendationCollectionViewCell~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/View/SlikeRecommendationView.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationView.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationView.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationView.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationView.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationView.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationView.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationView.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationView~partial.swiftmodule"
+  },
+  "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/SlikeRecommendation/Classes/ViewModel/SlikeRecommendationViewModel.swift" : {
+    "const-values" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationViewModel.swiftconstvalues",
+    "dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationViewModel.d",
+    "diagnostics" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationViewModel.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationViewModel.o",
+    "llvm-bc" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationViewModel.bc",
+    "object" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationViewModel.o",
+    "swift-dependencies" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationViewModel.swiftdeps",
+    "swiftmodule" : "/Users/Aravind.Kumar/Documents/TVID/SlikeRecommendation/Example/build/Pods.build/Debug-iphonesimulator/SlikeRecommendation.build/Objects-normal/arm64/SlikeRecommendationViewModel~partial.swiftmodule"
+  }
+}

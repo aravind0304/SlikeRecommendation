@@ -1,0 +1,9 @@
+Target dependency graph (4 targets)
+Target 'SlikeRecommendation' in project 'Pods'
+➜ Explicit dependency on target 'AlamofireImage' in project 'Pods'
+➜ Explicit dependency on target 'SlikeRecommendation-SlikeRecResources' in project 'Pods'
+Target 'SlikeRecommendation-SlikeRecResources' in project 'Pods'
+➜ Implicit dependency on target 'AlamofireImage' in project 'Pods' via options '-framework AlamofireImage' in build setting 'OTHER_LDFLAGS'
+Target 'AlamofireImage' in project 'Pods'
+➜ Explicit dependency on target 'Alamofire' in project 'Pods'
+Target 'Alamofire' in project 'Pods' (no dependencies)
