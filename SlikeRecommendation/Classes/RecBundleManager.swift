@@ -6,29 +6,30 @@
 //
 
 import Foundation
+import UIKit
+
 public class RecBundleManager {
-    
-    /// - Returns: Bundle
+
     public static func frameworkBundle() -> Bundle {
-        let bundle = Bundle(for: self)
-        return bundle
+        #if SWIFT_PACKAGE
+        return Bundle.module
+        #else
+        return Bundle(for: RecBundleManager.self)
+        #endif
     }
-    
-    /// - Parameters:
-    ///   - name: Resource Name
-    ///   - ext: Resource Type
-    /// - Returns: path
+
     public static func path(forResource name: String?, ofType ext: String?) -> String? {
-        let bundle = frameworkBundle()
-        let path = bundle.path(forResource: name, ofType: ext)
-        return path
+        #if SWIFT_PACKAGE
+        return Bundle.module.path(forResource: name, ofType: ext)
+        #else
+        return frameworkBundle().path(forResource: name, ofType: ext)
+        #endif
     }
-    
-    /// Resource picture
-    ///
-    /// - Parameter name: image name
-    /// - Returns: image
+
     public static func image(named name: String) -> UIImage? {
+        #if SWIFT_PACKAGE
+        return UIImage(named: name, in: Bundle.module, compatibleWith: nil)
+        #else
         let mainBundlePath = RecBundleManager.path(forResource: "SlikeRecResources", ofType: "bundle")
         let bundleFullPath = mainBundlePath?.appending("/SlikeRecommendation.bundle")
         if let bundlePath = bundleFullPath {
@@ -36,15 +37,19 @@ public class RecBundleManager {
             return UIImage(named: name, in: bundle, compatibleWith: nil)
         }
         return nil
+        #endif
     }
-    
+
     public static func resourcesBundle() -> Bundle? {
-        let bundle = RecBundleManager.frameworkBundle()
-        let bunldeUrl = bundle.url(forResource: "SlikeRecResources", withExtension: "bundle")
-        if let bundleUrl = bunldeUrl {
-            let bundle = Bundle(url: bundleUrl)
-            return bundle
+        #if SWIFT_PACKAGE
+        return Bundle.module
+        #else
+        let bundle = frameworkBundle()
+        let bundleUrl = bundle.url(forResource: "SlikeRecResources", withExtension: "bundle")
+        if let bundleUrl = bundleUrl {
+            return Bundle(url: bundleUrl)
         }
         return nil
+        #endif
     }
 }

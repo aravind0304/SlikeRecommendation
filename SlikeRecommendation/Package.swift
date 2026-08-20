@@ -19,7 +19,7 @@ let package = Package(
         .target(
             name: "SlikeRecommendation",
             dependencies: ["AlamofireImage"],
-            path: "SlikeRecommendation",
+            path: ".",
             sources: ["Classes"],
             resources: [
                 .process("SlikeRecResources")
